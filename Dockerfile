@@ -1,17 +1,20 @@
 # استخدام نسخة جافا مستقرة وخفيفة
 FROM eclipse-temurin:17-jre-alpine
 
-# تحديد مكان العمل جوة السيرفر
+# تثبيت أداة curl لتنزيل الملفات بشكل مستقر
+RUN apk add --no-cache curl
+
+# تحديد مكان العمل
 WORKDIR /minecraft
 
-# نسخ ملف السيرفر مباشرة من جهازك بدل التحميل بالنت
-COPY paper.jar /minecraft/paper.jar
+# تحميل ملف السيرفر مباشرة بشكل صامت (Silent) وموفر للرام
+RUN curl -sSL -o paper.jar https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/496/downloads/paper-1.20.4-496.jar
 
-# الموافقة على شروط ماين كرافت (EULA)
+# الموافقة على الشروط
 RUN echo "eula=true" > eula.txt
 
-# فتح البورت الافتراضي لماين كرافت
+# فتح البورت
 EXPOSE 25565
 
-# أمر تشغيل السيرفر مع تحديد الرام (مثال: 2 جيجا، تقدر تغيرها حسب خطتك)
+# تشغيل السيرفر
 CMD ["java", "-Xms2G", "-Xmx2G", "-jar", "paper.jar", "nogui"]
