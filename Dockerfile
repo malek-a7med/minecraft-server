@@ -16,5 +16,7 @@ RUN echo "eula=true" > eula.txt
 # فتح البورت
 EXPOSE 25565
 
+RUN apk add --no-cache libstdc++
+
 # تشغيل السيرفر
 CMD ["java", "-Xms1024M", "-Xmx1536M", "-jar", "paper.jar", "nogui"]
