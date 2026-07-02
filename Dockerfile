@@ -17,4 +17,4 @@ RUN echo "eula=true" > eula.txt
 EXPOSE 25565
 
 # تشغيل السيرفر
-CMD ["java", "-Xms2G", "-Xmx2G", "-jar", "paper.jar", "nogui"]
+CMD ["java", "-Xms1G", "-Xmx1.5G", "-jar", "paper.jar", "nogui"]
