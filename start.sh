@@ -91,14 +91,14 @@ download_plugin "playit-minecraft-plugin" \
   "https://github.com/playit-cloud/playit-minecraft-plugin/releases/download/v0.2.0/playit-minecraft-plugin.jar" \
   51200
 
-# Chunky 1.5.3 — Pre-generates chunks to eliminate exploration lag
+# Chunky 1.4.40 — Pre-generates chunks (Java 21 متوافق، class version 65)
 download_plugin "Chunky" \
-  "https://cdn.modrinth.com/data/fALzjamp/versions/MdY6JATr/Chunky-Bukkit-1.5.3.jar" \
+  "https://cdn.modrinth.com/data/fALzjamp/versions/P3y2MXnd/Chunky-Bukkit-1.4.40.jar" \
   51200
 
-# AuthMe 6.0.0 (Paper build) — Login system for offline-mode servers
+# AuthMe 5.7.0 — Login system for offline-mode servers (متوافق مع 1.21.1)
 download_plugin "AuthMe" \
-  "https://github.com/AuthMe/AuthMeReloaded/releases/download/6.0.0/AuthMe-6.0.0-Paper.jar" \
+  "https://github.com/AuthMe/AuthMeReloaded/releases/download/5.7.0/AuthMe-5.7.0.jar" \
   51200
 
 # EssentialsX 2.22.0 — Commands, homes, spawn, economy base
