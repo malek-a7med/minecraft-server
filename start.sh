@@ -91,11 +91,6 @@ download_plugin "playit-minecraft-plugin" \
   "https://github.com/playit-cloud/playit-minecraft-plugin/releases/download/v0.2.0/playit-minecraft-plugin.jar" \
   51200
 
-# Chunky 1.4.40 — Pre-generates chunks (Java 21 متوافق، class version 65)
-download_plugin "Chunky" \
-  "https://cdn.modrinth.com/data/fALzjamp/versions/P3y2MXnd/Chunky-Bukkit-1.4.40.jar" \
-  51200
-
 # AuthMe 5.7.0 — Login system for offline-mode servers (متوافق مع 1.21.1)
 download_plugin "AuthMe" \
   "https://github.com/AuthMe/AuthMeReloaded/releases/download/5.7.0/AuthMe-5.7.0.jar" \
