@@ -146,4 +146,9 @@ JAVA_FLAGS=(
 )
 
 echo "[START] Launching Paper ${PAPER_VERSION}..."
+
+# JAVA_TOOL_OPTIONS بيتضبط من ريلواي على -Xms3G -Xmx3G وده بيكراش الكونتينر (3GB > 1GB RAM)
+# بنمسحه عشان flags بتاعتنا تشتغل
+unset JAVA_TOOL_OPTIONS
+
 exec java "${JAVA_FLAGS[@]}" -jar "$PAPER_JAR" nogui
