@@ -28,6 +28,10 @@ plugins/Chunky/
 plugins/AuthMe/sessions.db
 plugins/AuthMe/authme.log
 plugins/EssentialsX/
+plugins/Geyser-Spigot/cache/
+plugins/Geyser-Spigot/dumps/
+plugins/Geyser-Spigot/logs/
+plugins/Geyser-Spigot/key.pem
 
 # --- بيانات الـ Paper ---
 paper-cracked.yml

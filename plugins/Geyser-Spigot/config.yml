@@ -1,0 +1,58 @@
+# =====================================================
+# إعداد Geyser-Spigot
+# البيدروك والجافا على نفس البورت الخارجي في ريلواي (26136)
+# الجافا بيشتغل على TCP والبيدروك على UDP — ممكن يشاركوا نفس رقم البورت
+# =====================================================
+
+bedrock:
+  # بيسمع على كل الإيبي جوه الكونتينر
+  address: 0.0.0.0
+  # نفس بورت الجافا (25565) — ريلواي بيعمل map للاتنين على 26136 خارجياً
+  port: 25565
+  clone-remote-port: false
+  motd1: "Minecraft Server"
+  motd2: "Paper 1.21.1"
+  server-name: "Minecraft Server"
+  compression-level: 6
+  enable-proxy-protocol: false
+
+remote:
+  # auto = Geyser بيكتشف السيرفر اللوكال تلقائياً
+  address: auto
+  port: 25565
+  auth-type: floodgate
+
+# ---- إعدادات الفلودجيت والأمان ----
+floodgate-key-path: key.pem
+
+# ---- إعدادات اللعبة ----
+userauthtimeout: 128
+allow-third-party-capes: true
+show-cooldown: title
+show-coordinates: true
+disable-bedrock-scaffolding: false
+emote-offhand-workaround: "disabled"
+default-locale: ar_EG
+cache-images: 0
+allow-custom-skulls: true
+max-visible-custom-skulls: 128
+custom-skull-render-distance: 32
+add-non-bedrock-items: true
+above-bedrock-nether-building: false
+force-resource-packs: false
+xbox-achievements-enabled: false
+
+# ---- إعدادات الأداء ----
+scoreboard-packet-threshold: 20
+enable-player-list-caching: true
+
+# ---- سجل الأخطاء ----
+debug-mode: false
+allow-third-party-ears: false
+show-death-messages: true
+disable-compression: false
+enable-proxy-protocol: false
+
+metrics:
+  enabled: false
+  uuid: generateduuid

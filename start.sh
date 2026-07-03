@@ -66,6 +66,26 @@ download_plugin() {
   fi
 }
 
+# ViaVersion 5.10.0 — بيخلي أي إصدار جافا يدخل السيرفر
+download_plugin "ViaVersion" \
+  "https://hangarcdn.papermc.io/plugins/ViaVersion/ViaVersion/versions/5.10.0/PAPER/ViaVersion-5.10.0.jar" \
+  51200
+
+# ViaBackwards 5.10.0 — بيضيف دعم الإصدارات الأقدم من 1.21.1
+download_plugin "ViaBackwards" \
+  "https://hangarcdn.papermc.io/plugins/ViaVersion/ViaBackwards/versions/5.10.0/PAPER/ViaBackwards-5.10.0.jar" \
+  51200
+
+# Floodgate — لازم ينزل قبل Geyser (Geyser بيعتمد عليه)
+download_plugin "Floodgate-Spigot" \
+  "https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot" \
+  51200
+
+# Geyser-Spigot — بيخلي البيدروك (موبايل/Xbox/مكرك) يدخل على نفس بورت الجافا
+download_plugin "Geyser-Spigot" \
+  "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot" \
+  51200
+
 # Chunky 1.5.3 — Pre-generates chunks to eliminate exploration lag
 download_plugin "Chunky" \
   "https://cdn.modrinth.com/data/fALzjamp/versions/MdY6JATr/Chunky-Bukkit-1.5.3.jar" \
