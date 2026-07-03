@@ -86,6 +86,11 @@ download_plugin "Geyser-Spigot" \
   "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot" \
   51200
 
+# playit-minecraft v0.2.0 — نفق عام بديل للبورت بدون فتح بورت في الراوتر
+download_plugin "playit-minecraft-plugin" \
+  "https://github.com/playit-cloud/playit-minecraft-plugin/releases/download/v0.2.0/playit-minecraft-plugin.jar" \
+  51200
+
 # Chunky 1.5.3 — Pre-generates chunks to eliminate exploration lag
 download_plugin "Chunky" \
   "https://cdn.modrinth.com/data/fALzjamp/versions/MdY6JATr/Chunky-Bukkit-1.5.3.jar" \
