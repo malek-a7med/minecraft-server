@@ -1,0 +1,52 @@
+# ============================
+# Minecraft Server — .gitignore
+# Optimized for Railway Volume
+# ============================
+
+# --- عوالم (يُحفظ على Railway Volume) ---
+world/
+world_nether/
+world_the_end/
+
+# --- السجلات ---
+logs/
+*.log
+*.log.gz
+
+# --- كاش وملفات مؤقتة ---
+cache/
+.cache/
+generated/
+libraries/
+
+# --- ملف الـ JAR الرئيسي (يُحمَّل في start.sh) ---
+paper.jar
+
+# --- بلجنات (الـ JAR فقط، ابقِ الـ config) ---
+plugins/*.jar
+plugins/Chunky/
+plugins/AuthMe/sessions.db
+plugins/AuthMe/authme.log
+plugins/EssentialsX/
+
+# --- بيانات الـ Paper ---
+paper-cracked.yml
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+*.iml
+
+# --- ملفات الـ crash ---
+crash-reports/
+
+# --- ملفات مؤقتة أخرى ---
+*.tmp
+*.bak
+usercache.json
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json

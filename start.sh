@@ -1,6 +1,127 @@
 #!/bin/bash
-if [ ! -f paper.jar ]; then
-  echo "Downloading Paper Minecraft Server..."
-  wget -O paper.jar https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/497/downloads/paper-1.20.4-497.jar
+set -euo pipefail
+
+# =====================================================
+# Minecraft Paper 1.21.1 — Start Script
+# Optimized for Railway Free Plan (1 GB RAM)
+# =====================================================
+
+PAPER_VERSION="1.21.1"
+PAPER_JAR="paper.jar"
+PLUGINS_DIR="plugins"
+
+mkdir -p "$PLUGINS_DIR"
+
+# ---- دالة مساعدة: تحقق أن الملف جار Java صالح (أكبر من 1MB) ----
+is_valid_jar() {
+  local f="$1"
+  [ -f "$f" ] && [ "$(wc -c < "$f")" -gt 1048576 ]
+}
+
+# ---- تحميل Paper (يستخدم fill.papermc.io API v3 لجلب أحدث بناء) ----
+if ! is_valid_jar "$PAPER_JAR"; then
+  echo "[START] Resolving latest Paper ${PAPER_VERSION} build from fill.papermc.io..."
+
+  BUILDS_JSON=$(curl -fsSL --retry 3 --retry-delay 3 --max-time 30 \
+    "https://fill.papermc.io/v3/projects/paper/versions/${PAPER_VERSION}/builds")
+
+  # الحصول على رابط التحميل المباشر من آخر بناء (server:default)
+  PAPER_URL=$(echo "$BUILDS_JSON" | jq -r '.[-1].downloads["server:default"].url')
+
+  if [ -z "$PAPER_URL" ] || [ "$PAPER_URL" = "null" ]; then
+    echo "[ERROR] Could not resolve Paper download URL from fill.papermc.io API."
+    echo "        تأكد أن النسخة ${PAPER_VERSION} متوفرة وأن الاتصال بالإنترنت يعمل."
+    exit 1
+  fi
+
+  echo "[START] Downloading Paper ${PAPER_VERSION}..."
+  rm -f "$PAPER_JAR"
+  curl -fsSL --retry 3 --retry-delay 3 --max-time 120 -o "$PAPER_JAR" "$PAPER_URL"
+
+  if ! is_valid_jar "$PAPER_JAR"; then
+    echo "[ERROR] Downloaded paper.jar is invalid or corrupt. Aborting."
+    rm -f "$PAPER_JAR"
+    exit 1
+  fi
+  echo "[START] Paper downloaded successfully."
 fi
-exec java -Xms768M -Xmx768M -jar paper.jar nogui
+
+# ---- دالة تحميل البلجنات مع تحقق ----
+download_plugin() {
+  local name="$1"
+  local url="$2"
+  local dest="${PLUGINS_DIR}/${name}.jar"
+  local min_size="${3:-51200}"   # 50KB حد أدنى افتراضي
+
+  if ! { [ -f "$dest" ] && [ "$(wc -c < "$dest")" -gt "$min_size" ]; }; then
+    echo "[PLUGINS] Downloading ${name}..."
+    rm -f "$dest"
+    curl -fsSL --retry 3 --retry-delay 3 --max-time 60 -L -o "$dest" "$url"
+    if ! { [ -f "$dest" ] && [ "$(wc -c < "$dest")" -gt "$min_size" ]; }; then
+      echo "[WARN] ${name}.jar looks invalid after download — check the URL:"
+      echo "       $url"
+    else
+      echo "[PLUGINS] ${name} downloaded successfully."
+    fi
+  fi
+}
+
+# Chunky 1.5.3 — Pre-generates chunks to eliminate exploration lag
+download_plugin "Chunky" \
+  "https://cdn.modrinth.com/data/fALzjamp/versions/MdY6JATr/Chunky-Bukkit-1.5.3.jar" \
+  51200
+
+# AuthMe 6.0.0 (Paper build) — Login system for offline-mode servers
+download_plugin "AuthMe" \
+  "https://github.com/AuthMe/AuthMeReloaded/releases/download/6.0.0/AuthMe-6.0.0-Paper.jar" \
+  51200
+
+# EssentialsX 2.22.0 — Commands, homes, spawn, economy base
+download_plugin "EssentialsX" \
+  "https://github.com/EssentialsX/Essentials/releases/download/2.22.0/EssentialsX-2.22.0.jar" \
+  51200
+
+# ---- قبول EULA ----
+echo "eula=true" > eula.txt
+
+# =====================================================
+# Java GC Flags — Aikar's Flags (مُعدَّلة لـ 1 جيجا RAM)
+# Xmx768M: يترك ~256MB لـ JVM native + metaspace + OS
+# =====================================================
+JAVA_FLAGS=(
+  # ---- Heap ----
+  -Xms512M
+  -Xmx768M
+
+  # ---- G1GC — أفضل GC لتقليل تأخيرات ماين كرافت ----
+  -XX:+UseG1GC
+  -XX:+ParallelRefProcEnabled
+  -XX:MaxGCPauseMillis=200
+  -XX:+UnlockExperimentalVMOptions
+  -XX:+DisableExplicitGC
+  -XX:+AlwaysPreTouch
+  -XX:G1NewSizePercent=30
+  -XX:G1MaxNewSizePercent=40
+  -XX:G1HeapRegionSize=8M
+  -XX:G1ReservePercent=20
+  -XX:G1HeapWastePercent=5
+  -XX:G1MixedGCCountTarget=4
+  -XX:InitiatingHeapOccupancyPercent=15
+  -XX:G1MixedGCLiveThresholdPercent=90
+  -XX:G1RSetUpdatingPauseTimePercent=5
+  -XX:SurvivorRatio=32
+  -XX:+PerfDisableSharedMem
+  -XX:MaxTenuringThreshold=1
+
+  # ---- تحسينات إضافية ----
+  -Dusing.aikars.flags=https://mcflags.emc.gs
+  -Daikars.new.flags=true
+  -Dpaper.playerconnection.keepalive=30
+
+  # ---- تقليل استخدام Metaspace ----
+  -XX:MetaspaceSize=64M
+  -XX:MaxMetaspaceSize=256M
+)
+
+echo "[START] Launching Paper ${PAPER_VERSION}..."
+exec java "${JAVA_FLAGS[@]}" -jar "$PAPER_JAR" nogui

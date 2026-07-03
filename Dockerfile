@@ -1,22 +1,28 @@
-# استخدام نسخة جافا 21 (لأن ماين كرافت 1.21.1 بتطلب جافا 21 على الأقل)
+# =====================================================
+# Minecraft Paper 1.21.1 — Dockerfile
+# Optimized for Railway Free Plan (1 GB RAM)
+# =====================================================
+
 FROM eclipse-temurin:21-jre-alpine
 
-# تثبيت أداة curl لتنزيل الملفات بشكل مستقر
-RUN apk add --no-cache curl
+# تثبيت الأدوات: curl (تحميل ملفات) + jq (تحليل JSON من Paper API) + bash
+RUN apk add --no-cache curl bash libstdc++ jq
 
-# تحديد مكان العمل
 WORKDIR /minecraft
 
-# تحميل ملف سيرفر Paper لنسخة 1.21.1 بشكل صامت وخفيف
-RUN curl -sSL -o paper.jar https://api.papermc.io/v2/projects/paper/versions/1.21.1/builds/130/downloads/paper-1.21.1-130.jar
+# نسخ ملفات الإعداد إلى الصورة
+COPY server.properties .
+COPY spigot.yml .
+COPY eula.txt .
+COPY config/ config/
+COPY start.sh .
+RUN chmod +x start.sh
 
-# الموافقة على الشروط
-RUN echo "eula=true" > eula.txt
+# إنشاء مجلد البلجنات
+RUN mkdir -p plugins
 
 # فتح البورت
 EXPOSE 25565
 
-RUN apk add --no-cache libstdc++
-
-# تشغيل السيرفر
-CMD ["java", "-Xms1024M", "-Xmx1536M", "-jar", "paper.jar", "nogui"]
+# تشغيل السيرفر (يُنزَّل Paper والبلجنات تلقائياً عند أول تشغيل)
+ENTRYPOINT ["./start.sh"]

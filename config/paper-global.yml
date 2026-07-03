@@ -1,0 +1,91 @@
+# Paper Global Configuration — Optimized for 1 GB RAM (Railway Free Plan)
+# Paper 1.21.1
+
+_version: 29
+
+chunk-loading-basic:
+  autoconfig-send-distance: true
+  player-max-chunk-load-rate: 100.0
+  player-max-chunk-send-rate: 75.0
+
+chunk-loading-advanced:
+  player-loading-priority: 10
+  player-selected-priority: 12
+
+collisions:
+  enable-player-collisions: true
+  send-full-pos-for-hard-collisions: false
+
+console:
+  enable-brigadier-completions: false
+  enable-brigadier-highlighting: false
+  has-all-permissions: false
+
+item-validation:
+  resolve-selectors-in-books: false
+
+logging:
+  deobfuscate-stacktraces: true
+  log-player-ip-addresses: false
+  use-rgb-for-named-text-colors: true
+
+messages:
+  no-permission: '&cليس لديك صلاحية لتنفيذ هذا الأمر.'
+  use-display-name-in-quit-message: false
+
+misc:
+  chat-threads:
+    chat-executor-core-size: -1
+    chat-executor-max-size: -1
+  compress-matchbook: true
+  fix-entity-position-desync: true
+  lag-compensate-block-breaking: true
+  load-permissions-yml-before-plugins: true
+  max-joins-per-tick: 3
+  region-file-cache-size: 256
+
+packet-limiter:
+  all-packets:
+    action: KICK
+    interval: 7.0
+    max-packet-rate: 500.0
+  kick-message: '<red>تجاوزت حد الباكيتات المسموح به.'
+
+player-auto-save:
+  max-per-tick: 10
+  rate: 6000
+
+proxies:
+  bungee-cord:
+    online-mode: false
+  proxy-protocol: false
+  velocity:
+    enabled: false
+    online-mode: false
+    secret: ''
+
+scoreboards:
+  save-empty-scoreboard-teams: false
+  track-plugin-scoreboards: false
+
+spam-limiter:
+  incoming-packet-threshold: 300
+  recipe-spam-increment: 1
+  recipe-spam-limit: 20
+  tab-spam-increment: 1
+  tab-spam-limit: 500
+
+timings:
+  enabled: false
+  really-enabled: false
+  verbose: false
+
+unsupported-settings:
+  allow-headless-pistons: false
+  allow-permanent-block-break-exploits: false
+  allow-piston-duplication: false
+  perform-username-validation: true
+
+watchdog:
+  early-warning-delay: 10000
+  early-warning-every: 5000
