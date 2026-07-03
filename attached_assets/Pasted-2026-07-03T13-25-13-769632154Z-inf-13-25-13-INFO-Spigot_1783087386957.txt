@@ -1,0 +1,1001 @@
+2026-07-03T13:25:13.769632154Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:25:13.770477135Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:25:13.770481444Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:25:13.770485614Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:25:13.770489774Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:25:13.770493674Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:25:13.770497364Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:25:13.770500954Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:25:13.770504224Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:25:13.770508034Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:25:13.770511824Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:25:13.770515314Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:25:13.770518664Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:25:13.771675650Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:25:13.771680790Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:25:13.771687180Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:25:13.771696820Z [inf]  [13:25:13 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:25:13.841219351Z [inf]  [13:25:13 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:25:13.841226041Z [inf]  [13:25:13 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:25:15.182997519Z [inf]  [13:25:15 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:25:16.447020354Z [inf]  [13:25:16 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:25:16.489471932Z [inf]  [13:25:16 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:25:17.932629668Z [inf]  [13:25:17 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:25:17.932640437Z [inf]  [13:25:17 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:25:19.100516632Z [inf]  [13:25:19 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:25:19.100553462Z [inf]  [13:25:19 INFO]: [floodgate] Took 1,143ms to boot Floodgate
+2026-07-03T13:25:19.100556602Z [inf]  [13:25:19 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:25:19.100559612Z [inf]  [13:25:19 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:25:19.100562652Z [inf]  [13:25:19 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:25:19.741740529Z [inf]  [13:25:19 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:25:19.741745599Z [inf]  [13:25:19 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:25:19.741753449Z [inf]  [13:25:19 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:25:19.741756259Z [inf]  [13:25:19 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:25:19.741759368Z [inf]  [13:25:19 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:25:19.741762788Z [inf]  [13:25:19 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:25:19.741765578Z [inf]  [13:25:19 INFO]: Preparing level "world"
+2026-07-03T13:25:27.784121077Z [inf]  [13:25:27 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:25:31.555221008Z [inf]  [13:25:31 INFO]: Time elapsed: 3769 ms
+2026-07-03T13:25:31.555226128Z [inf]  [13:25:31 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T13:25:33.251344762Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T13:25:33.263213229Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms3G -Xmx3G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T13:25:33.267247619Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ac6cb700-48b5-4782-a8e1-03630916f763/vol_9yshw081luebrlv9
+2026-07-03T13:25:33.687855848Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T13:25:33.744006211Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T13:25:33.744009811Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T13:25:34.039890883Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T13:25:34.315526619Z [inf]  [13:25:34 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T13:25:34.315533009Z [inf]  [13:25:34 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T13:25:34.352219796Z [inf]  [13:25:34 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T13:25:34.492941789Z [inf]  [13:25:34 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T13:25:34.803528823Z [inf]  [13:25:34 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T13:25:34.803531703Z [inf]  [13:25:34 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T13:25:35.268287749Z [inf]  [13:25:35 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T13:25:36.661965612Z [inf]  [13:25:36 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1854ms.
+2026-07-03T13:25:37.238457039Z [inf]  [13:25:37 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 2409ms.
+2026-07-03T13:25:38.325207533Z [inf]  [13:25:38 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3134ms.
+2026-07-03T13:25:38.464682571Z [inf]  [13:25:38 INFO]: [PluginInitializerManager] Initialized 7 plugins
+2026-07-03T13:25:38.464686081Z [inf]  [13:25:38 INFO]: [PluginInitializerManager] Bukkit plugins (7):
+2026-07-03T13:25:38.464689451Z [inf]   - AuthMe (5.7.0-b2660), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T13:25:41.500598468Z [inf]  [13:25:41 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T13:25:41.614945529Z [inf]  [13:25:41 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T13:25:41.614950459Z [inf]  [13:25:41 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T13:25:42.302925892Z [inf]  [13:25:42 INFO]: No existing world data, creating new world
+2026-07-03T13:25:42.626327342Z [inf]  [13:25:42 INFO]: Loaded 1290 recipes
+2026-07-03T13:25:42.799094658Z [inf]  [13:25:42 INFO]: Loaded 1399 advancements
+2026-07-03T13:25:42.922818716Z [inf]  [13:25:42 WARN]: ****************************
+2026-07-03T13:25:42.922825166Z [inf]  [13:25:42 INFO]: Loading properties
+2026-07-03T13:25:42.922832996Z [inf]  [13:25:42 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T13:25:42.922844896Z [inf]  [13:25:42 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T13:25:42.922863936Z [inf]  [13:25:42 WARN]: ****************************
+2026-07-03T13:25:42.922871626Z [inf]  [13:25:42 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T13:25:42.922871976Z [inf]  [13:25:42 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T13:25:42.965975516Z [inf]  [13:25:42 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T13:25:43.329992816Z [inf]  [13:25:43 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T13:25:43.373034997Z [inf]  [13:25:43 INFO]: Using 2 threads for Netty based IO
+2026-07-03T13:25:43.377307716Z [inf]  [13:25:43 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T13:25:44.022358916Z [inf]  [13:25:44 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T13:25:44.256732980Z [inf]  [13:25:44 INFO]: Default game type: SURVIVAL
+2026-07-03T13:25:44.256736200Z [inf]  [13:25:44 INFO]: Generating keypair
+2026-07-03T13:25:44.256741070Z [inf]  [13:25:44 INFO]: Starting Minecraft server on *:25565
+2026-07-03T13:25:44.300197065Z [inf]  [13:25:44 INFO]: Using epoll channel type
+2026-07-03T13:25:44.373554601Z [inf]  [13:25:44 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T13:25:44.373560691Z [inf]  [13:25:44 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T13:25:45.402424843Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+2026-07-03T13:25:45.731486755Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+2026-07-03T13:25:45.731495854Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+2026-07-03T13:25:45.731500804Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2026-07-03T13:25:45.731505644Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+2026-07-03T13:25:45.731666492Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+2026-07-03T13:25:45.731684042Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+2026-07-03T13:25:45.731692382Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+2026-07-03T13:25:45.731704032Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+2026-07-03T13:25:45.731712682Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+2026-07-03T13:25:45.731722202Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+2026-07-03T13:25:45.731728401Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+2026-07-03T13:25:45.734229681Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+2026-07-03T13:25:45.734233671Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2026-07-03T13:25:45.734237231Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+2026-07-03T13:25:45.734241091Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+2026-07-03T13:25:45.734245371Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:25:45.734249441Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+2026-07-03T13:25:45.734252681Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+2026-07-03T13:25:45.734256351Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+2026-07-03T13:25:45.734259941Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+2026-07-03T13:25:45.734263341Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+2026-07-03T13:25:45.734267381Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+2026-07-03T13:25:45.736065110Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:25:45.736070040Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:25:45.736076879Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:25:45.736080359Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:25:45.736083649Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:25:45.736086839Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:25:45.736090359Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:25:45.736093939Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:25:45.736097479Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:25:45.736101539Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:25:45.736105049Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:25:45.736108119Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:25:45.737373704Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:25:45.737379524Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:25:45.737383874Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:25:45.737387684Z [inf]  [13:25:45 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:25:45.867150309Z [inf]  [13:25:45 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:25:45.867159259Z [inf]  [13:25:45 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:25:47.753394571Z [inf]  [13:25:47 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:25:49.113384620Z [inf]  [13:25:49 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:25:49.124406387Z [inf]  [13:25:49 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:25:50.707844522Z [inf]  [13:25:50 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:25:50.716679535Z [inf]  [13:25:50 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:25:51.904614859Z [inf]  [13:25:51 INFO]: [floodgate] Took 1,186ms to boot Floodgate
+2026-07-03T13:25:51.904620939Z [inf]  [13:25:51 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:25:51.904625359Z [inf]  [13:25:51 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:25:51.904629828Z [inf]  [13:25:51 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:25:51.904634158Z [inf]  [13:25:51 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:25:52.560724177Z [inf]  [13:25:52 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:25:52.560728667Z [inf]  [13:25:52 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:25:52.570559688Z [inf]  [13:25:52 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T13:25:52.570562248Z [inf]  [13:25:52 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:25:52.570565038Z [inf]  [13:25:52 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:25:52.570567608Z [inf]  [13:25:52 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:25:52.570570178Z [inf]  [13:25:52 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:25:52.570572548Z [inf]  [13:25:52 INFO]: Preparing level "world"
+2026-07-03T13:26:01.104906428Z [inf]  [13:26:01 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:26:05.646292232Z [inf]  [13:26:05 INFO]: Time elapsed: 4532 ms
+2026-07-03T13:26:05.646296812Z [inf]  [13:26:05 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T13:26:06.938024834Z [inf]  [13:26:06 INFO]: Time elapsed: 1307 ms
+2026-07-03T13:26:06.938031144Z [inf]  [13:26:06 INFO]: Preparing start region for dimension minecraft:the_end
+2026-07-03T13:26:07.305112527Z [inf]  [13:26:07 INFO]: Time elapsed: 336 ms
+2026-07-03T13:26:07.305118047Z [inf]  [13:26:07 INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+2026-07-03T13:26:07.523417555Z [inf]  [13:26:07 INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+2026-07-03T13:26:08.553620932Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T13:26:08.553626492Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms3G -Xmx3G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T13:26:08.939579028Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T13:26:08.978646188Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ac6cb700-48b5-4782-a8e1-03630916f763/vol_9yshw081luebrlv9
+2026-07-03T13:26:08.996186024Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T13:26:08.996190554Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T13:26:09.347901113Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T13:26:09.638138223Z [inf]  [13:26:09 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T13:26:09.638143113Z [inf]  [13:26:09 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T13:26:09.683341358Z [inf]  [13:26:09 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T13:26:09.816172776Z [inf]  [13:26:09 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T13:26:10.115986080Z [inf]  [13:26:10 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T13:26:10.115993350Z [inf]  [13:26:10 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T13:26:10.630827871Z [inf]  [13:26:10 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T13:26:12.370088448Z [inf]  [13:26:12 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 2251ms.
+2026-07-03T13:26:13.350854920Z [inf]  [13:26:13 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 3232ms.
+2026-07-03T13:26:14.416405651Z [inf]  [13:26:14 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3783ms.
+2026-07-03T13:26:14.615963215Z [inf]  [13:26:14 INFO]: [PluginInitializerManager] Initialized 7 plugins
+2026-07-03T13:26:14.615967465Z [inf]  [13:26:14 INFO]: [PluginInitializerManager] Bukkit plugins (7):
+2026-07-03T13:26:14.615972865Z [inf]   - AuthMe (5.7.0-b2660), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T13:26:17.400685923Z [inf]  [13:26:17 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T13:26:17.677293977Z [inf]  [13:26:17 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T13:26:17.677299717Z [inf]  [13:26:17 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T13:26:18.055939311Z [inf]  [13:26:18 INFO]: No existing world data, creating new world
+2026-07-03T13:26:18.650996496Z [inf]  [13:26:18 INFO]: Loaded 1290 recipes
+2026-07-03T13:26:18.651000455Z [inf]  [13:26:18 INFO]: Loaded 1399 advancements
+2026-07-03T13:26:18.827235761Z [inf]  [13:26:18 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T13:26:18.827241001Z [inf]  [13:26:18 WARN]: ****************************
+2026-07-03T13:26:18.827244101Z [inf]  [13:26:18 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T13:26:18.827246630Z [inf]  [13:26:18 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T13:26:18.827249370Z [inf]  [13:26:18 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T13:26:18.827251890Z [inf]  [13:26:18 WARN]: ****************************
+2026-07-03T13:26:18.827254200Z [inf]  [13:26:18 INFO]: Loading properties
+2026-07-03T13:26:18.871540206Z [inf]  [13:26:18 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T13:26:19.293846213Z [inf]  [13:26:19 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T13:26:19.337788143Z [inf]  [13:26:19 INFO]: Using 2 threads for Netty based IO
+2026-07-03T13:26:19.369612890Z [inf]  [13:26:19 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T13:26:20.123813445Z [inf]  [13:26:20 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T13:26:20.273251693Z [inf]  [13:26:20 INFO]: Default game type: SURVIVAL
+2026-07-03T13:26:20.273258023Z [inf]  [13:26:20 INFO]: Generating keypair
+2026-07-03T13:26:20.284770114Z [inf]  [13:26:20 INFO]: Starting Minecraft server on *:25565
+2026-07-03T13:26:20.335633140Z [inf]  [13:26:20 INFO]: Using epoll channel type
+2026-07-03T13:26:20.355535220Z [inf]  [13:26:20 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T13:26:20.355540150Z [inf]  [13:26:20 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T13:26:21.127631599Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+2026-07-03T13:26:21.418954656Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+2026-07-03T13:26:21.418957856Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+2026-07-03T13:26:21.418961926Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2026-07-03T13:26:21.418965356Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+2026-07-03T13:26:21.418968756Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+2026-07-03T13:26:21.418972746Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+2026-07-03T13:26:21.418975866Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+2026-07-03T13:26:21.418983826Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+2026-07-03T13:26:21.418987236Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+2026-07-03T13:26:21.418990416Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+2026-07-03T13:26:21.418993996Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+2026-07-03T13:26:21.419239233Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+2026-07-03T13:26:21.419242713Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+2026-07-03T13:26:21.419246003Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:26:21.419249453Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+2026-07-03T13:26:21.419253073Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+2026-07-03T13:26:21.419256533Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+2026-07-03T13:26:21.419260263Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+2026-07-03T13:26:21.419263923Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+2026-07-03T13:26:21.419267562Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+2026-07-03T13:26:21.419298382Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+2026-07-03T13:26:21.419300922Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2026-07-03T13:26:21.420495818Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:26:21.420501118Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:26:21.420513807Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:26:21.420520307Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:26:21.420527687Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:26:21.420533797Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:26:21.420538007Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:26:21.420542647Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:26:21.420547247Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:26:21.420551357Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:26:21.420555177Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:26:21.420559357Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:26:21.420906822Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:26:21.420910122Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:26:21.420913112Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:26:21.420916122Z [inf]  [13:26:21 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:26:21.514186278Z [inf]  [13:26:21 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:26:21.514188898Z [inf]  [13:26:21 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:26:22.800347918Z [inf]  [13:26:22 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:26:23.973665439Z [inf]  [13:26:23 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:26:23.984003164Z [inf]  [13:26:23 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:26:25.230466444Z [inf]  [13:26:25 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:26:25.235383434Z [inf]  [13:26:25 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:26:26.415922667Z [inf]  [13:26:26 INFO]: [floodgate] Took 1,180ms to boot Floodgate
+2026-07-03T13:26:26.415925787Z [inf]  [13:26:26 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:26:26.415928467Z [inf]  [13:26:26 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:26:26.415931327Z [inf]  [13:26:26 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:26:26.415934267Z [inf]  [13:26:26 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:26:27.009369372Z [inf]  [13:26:27 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:26:27.014113264Z [inf]  [13:26:27 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:26:27.026710772Z [inf]  [13:26:27 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T13:26:27.026718042Z [inf]  [13:26:27 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:26:27.026722102Z [inf]  [13:26:27 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:26:27.026725722Z [inf]  [13:26:27 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:26:27.026728812Z [inf]  [13:26:27 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:26:27.026732252Z [inf]  [13:26:27 INFO]: Preparing level "world"
+2026-07-03T13:26:35.918319100Z [inf]  [13:26:35 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:26:41.426115115Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ac6cb700-48b5-4782-a8e1-03630916f763/vol_9yshw081luebrlv9
+2026-07-03T13:26:41.522562480Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T13:26:41.558143340Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms3G -Xmx3G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T13:26:42.012084726Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T13:26:42.057129173Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T13:26:42.057133633Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T13:26:42.344210251Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T13:26:42.616085593Z [inf]  [13:26:42 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T13:26:42.616090703Z [inf]  [13:26:42 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T13:26:42.646868741Z [inf]  [13:26:42 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T13:26:42.930458372Z [inf]  [13:26:42 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T13:26:43.115096975Z [inf]  [13:26:43 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T13:26:43.115101605Z [inf]  [13:26:43 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T13:26:43.526712072Z [inf]  [13:26:43 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T13:26:45.202641022Z [inf]  [13:26:45 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 2114ms.
+2026-07-03T13:26:46.379758698Z [inf]  [13:26:46 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 3288ms.
+2026-07-03T13:26:47.525161836Z [inf]  [13:26:47 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 4017ms.
+2026-07-03T13:26:47.669743623Z [inf]  [13:26:47 INFO]: [PluginInitializerManager] Initialized 7 plugins
+2026-07-03T13:26:47.669753003Z [inf]  [13:26:47 INFO]: [PluginInitializerManager] Bukkit plugins (7):
+2026-07-03T13:26:47.669757463Z [inf]   - AuthMe (5.7.0-b2660), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T13:26:50.574304418Z [inf]  [13:26:50 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T13:26:50.670835864Z [inf]  [13:26:50 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T13:26:50.670839884Z [inf]  [13:26:50 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T13:26:51.201496914Z [inf]  [13:26:51 INFO]: No existing world data, creating new world
+2026-07-03T13:26:51.622001903Z [inf]  [13:26:51 INFO]: Loaded 1290 recipes
+2026-07-03T13:26:51.728970654Z [inf]  [13:26:51 INFO]: Loaded 1399 advancements
+2026-07-03T13:26:51.890776613Z [inf]  [13:26:51 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T13:26:51.890782812Z [inf]  [13:26:51 WARN]: ****************************
+2026-07-03T13:26:51.890786882Z [inf]  [13:26:51 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T13:26:51.890790682Z [inf]  [13:26:51 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T13:26:51.890794472Z [inf]  [13:26:51 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T13:26:51.890797612Z [inf]  [13:26:51 WARN]: ****************************
+2026-07-03T13:26:51.890800992Z [inf]  [13:26:51 INFO]: Loading properties
+2026-07-03T13:26:52.015963443Z [inf]  [13:26:51 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T13:26:52.293400548Z [inf]  [13:26:52 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T13:26:52.347069840Z [inf]  [13:26:52 INFO]: Using 2 threads for Netty based IO
+2026-07-03T13:26:52.347078750Z [inf]  [13:26:52 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T13:26:53.166308131Z [inf]  [13:26:53 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T13:26:53.410644855Z [inf]  [13:26:53 INFO]: Default game type: SURVIVAL
+2026-07-03T13:26:53.410664455Z [inf]  [13:26:53 INFO]: Generating keypair
+2026-07-03T13:26:53.508020041Z [inf]  [13:26:53 INFO]: Starting Minecraft server on *:25565
+2026-07-03T13:26:53.524784379Z [inf]  [13:26:53 INFO]: Using epoll channel type
+2026-07-03T13:26:53.545524659Z [inf]  [13:26:53 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T13:26:53.545530919Z [inf]  [13:26:53 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T13:26:54.495406185Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+2026-07-03T13:26:54.796706171Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+2026-07-03T13:26:54.796712931Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+2026-07-03T13:26:54.796825290Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2026-07-03T13:26:54.796831900Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+2026-07-03T13:26:54.796836740Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+2026-07-03T13:26:54.796840990Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+2026-07-03T13:26:54.796846210Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+2026-07-03T13:26:54.796853300Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+2026-07-03T13:26:54.796857689Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+2026-07-03T13:26:54.796862279Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+2026-07-03T13:26:54.796866829Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+2026-07-03T13:26:54.797233046Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+2026-07-03T13:26:54.797237326Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2026-07-03T13:26:54.797241736Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+2026-07-03T13:26:54.797246356Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+2026-07-03T13:26:54.797250785Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:26:54.797255405Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+2026-07-03T13:26:54.797259655Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+2026-07-03T13:26:54.797264565Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+2026-07-03T13:26:54.797269515Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+2026-07-03T13:26:54.797275545Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+2026-07-03T13:26:54.797279905Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+2026-07-03T13:26:54.797678130Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:26:54.797681640Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:26:54.797684480Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:26:54.797687210Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:26:54.797690430Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:26:54.797693370Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:26:54.797696630Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:26:54.797699570Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:26:54.797702340Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:26:54.797705650Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:26:54.797708460Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:26:54.797711440Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:26:54.798829726Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:26:54.798833386Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:26:54.798835826Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:26:54.798839296Z [inf]  [13:26:54 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:26:54.858259560Z [inf]  [13:26:54 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:26:54.858667345Z [inf]  [13:26:54 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:26:56.388260660Z [inf]  [13:26:56 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:26:58.119254257Z [inf]  [13:26:58 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:26:58.119268357Z [inf]  [13:26:58 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:26:59.639103880Z [inf]  [13:26:59 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:26:59.643987241Z [inf]  [13:26:59 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:27:00.889077467Z [inf]  [13:27:00 INFO]: [floodgate] Took 1,183ms to boot Floodgate
+2026-07-03T13:27:00.889082477Z [inf]  [13:27:00 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:27:00.889085207Z [inf]  [13:27:00 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:27:00.889088067Z [inf]  [13:27:00 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:27:00.889091317Z [inf]  [13:27:00 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:27:01.494349209Z [inf]  [13:27:01 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:27:01.494919551Z [inf]  [13:27:01 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:27:01.505820300Z [inf]  [13:27:01 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T13:27:01.505825170Z [inf]  [13:27:01 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:27:01.505828079Z [inf]  [13:27:01 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:27:01.505831019Z [inf]  [13:27:01 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:27:01.505833659Z [inf]  [13:27:01 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:27:01.505836499Z [inf]  [13:27:01 INFO]: Preparing level "world"
+2026-07-03T13:27:09.016685641Z [inf]  [13:27:09 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:27:14.520994020Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ac6cb700-48b5-4782-a8e1-03630916f763/vol_9yshw081luebrlv9
+2026-07-03T13:27:14.713836804Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T13:27:14.790988534Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms3G -Xmx3G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T13:27:15.320355791Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T13:27:15.348384962Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T13:27:15.348393432Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T13:27:15.618626394Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T13:27:15.868511930Z [inf]  [13:27:15 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T13:27:15.868514970Z [inf]  [13:27:15 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T13:27:15.905089050Z [inf]  [13:27:15 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T13:27:16.041221338Z [inf]  [13:27:16 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T13:27:16.316103114Z [inf]  [13:27:16 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T13:27:16.316108104Z [inf]  [13:27:16 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T13:27:16.657095132Z [inf]  [13:27:16 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T13:27:18.182612497Z [inf]  [13:27:18 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1851ms.
+2026-07-03T13:27:19.348649827Z [inf]  [13:27:19 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 2999ms.
+2026-07-03T13:27:20.449369384Z [inf]  [13:27:20 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3788ms.
+2026-07-03T13:27:20.578861443Z [inf]  [13:27:20 INFO]: [PluginInitializerManager] Initialized 7 plugins
+2026-07-03T13:27:20.578868533Z [inf]  [13:27:20 INFO]: [PluginInitializerManager] Bukkit plugins (7):
+2026-07-03T13:27:20.578872422Z [inf]   - AuthMe (5.7.0-b2660), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T13:27:23.382875272Z [inf]  [13:27:23 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T13:27:23.489715073Z [inf]  [13:27:23 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T13:27:23.489720203Z [inf]  [13:27:23 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T13:27:23.952104328Z [inf]  [13:27:23 INFO]: No existing world data, creating new world
+2026-07-03T13:27:24.402022843Z [inf]  [13:27:24 INFO]: Loaded 1290 recipes
+2026-07-03T13:27:24.520374926Z [inf]  [13:27:24 INFO]: Loaded 1399 advancements
+2026-07-03T13:27:24.700326515Z [inf]  [13:27:24 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T13:27:24.700331485Z [inf]  [13:27:24 WARN]: ****************************
+2026-07-03T13:27:24.700335055Z [inf]  [13:27:24 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T13:27:24.700338425Z [inf]  [13:27:24 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T13:27:24.700342465Z [inf]  [13:27:24 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T13:27:24.700346255Z [inf]  [13:27:24 WARN]: ****************************
+2026-07-03T13:27:24.700349705Z [inf]  [13:27:24 INFO]: Loading properties
+2026-07-03T13:27:24.737237041Z [inf]  [13:27:24 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T13:27:25.094890858Z [inf]  [13:27:25 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T13:27:25.162221447Z [inf]  [13:27:25 INFO]: Using 2 threads for Netty based IO
+2026-07-03T13:27:25.164044264Z [inf]  [13:27:25 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T13:27:25.910886638Z [inf]  [13:27:25 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T13:27:26.202163836Z [inf]  [13:27:26 INFO]: Default game type: SURVIVAL
+2026-07-03T13:27:26.202173006Z [inf]  [13:27:26 INFO]: Generating keypair
+2026-07-03T13:27:26.212507271Z [inf]  [13:27:26 INFO]: Starting Minecraft server on *:25565
+2026-07-03T13:27:26.372779750Z [inf]  [13:27:26 INFO]: Using epoll channel type
+2026-07-03T13:27:26.372784620Z [inf]  [13:27:26 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T13:27:26.372789230Z [inf]  [13:27:26 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T13:27:27.087504051Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+2026-07-03T13:27:27.378209686Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+2026-07-03T13:27:27.378212986Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+2026-07-03T13:27:27.378215696Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2026-07-03T13:27:27.378218086Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+2026-07-03T13:27:27.378220556Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+2026-07-03T13:27:27.378223806Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+2026-07-03T13:27:27.378226096Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+2026-07-03T13:27:27.378228666Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+2026-07-03T13:27:27.378231586Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+2026-07-03T13:27:27.378234286Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+2026-07-03T13:27:27.378236736Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+2026-07-03T13:27:27.378553422Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+2026-07-03T13:27:27.378556581Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2026-07-03T13:27:27.378559471Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+2026-07-03T13:27:27.378562451Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+2026-07-03T13:27:27.378565601Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:27:27.378567911Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+2026-07-03T13:27:27.378570381Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+2026-07-03T13:27:27.378572911Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+2026-07-03T13:27:27.378576091Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+2026-07-03T13:27:27.378578991Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+2026-07-03T13:27:27.378582171Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+2026-07-03T13:27:27.379395912Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:27:27.379408582Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:27:27.379415091Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:27:27.379420241Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:27:27.379425391Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:27:27.379430941Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:27:27.379436491Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:27:27.379441441Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:27:27.379445351Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:27:27.379449081Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:27:27.379453651Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:27:27.379457581Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:27:27.380466869Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:27:27.380470769Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:27:27.380483139Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:27:27.380486089Z [inf]  [13:27:27 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:27:27.396314658Z [inf]  [13:27:27 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:27:27.396319688Z [inf]  [13:27:27 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:27:28.699923579Z [inf]  [13:27:28 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:27:29.910205185Z [inf]  [13:27:29 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:27:29.920776548Z [inf]  [13:27:29 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:27:31.445507272Z [inf]  [13:27:31 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:27:31.445510572Z [inf]  [13:27:31 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:27:32.461127357Z [inf]  [13:27:32 INFO]: [floodgate] Took 1,025ms to boot Floodgate
+2026-07-03T13:27:32.461130627Z [inf]  [13:27:32 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:27:32.461134037Z [inf]  [13:27:32 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:27:32.461137017Z [inf]  [13:27:32 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:27:32.461140287Z [inf]  [13:27:32 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:27:32.950570415Z [inf]  [13:27:32 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:27:32.950574455Z [inf]  [13:27:32 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:27:32.959056032Z [inf]  [13:27:32 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T13:27:32.959059312Z [inf]  [13:27:32 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:27:32.959062162Z [inf]  [13:27:32 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:27:32.959064522Z [inf]  [13:27:32 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:27:32.959066992Z [inf]  [13:27:32 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:27:32.960301597Z [inf]  [13:27:32 INFO]: Preparing level "world"
+2026-07-03T13:27:42.531657297Z [inf]  [13:27:42 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:27:47.331912187Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T13:27:47.337350491Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms3G -Xmx3G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T13:27:47.709644183Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T13:27:47.731169133Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T13:27:47.731174313Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T13:27:47.948614762Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ac6cb700-48b5-4782-a8e1-03630916f763/vol_9yshw081luebrlv9
+2026-07-03T13:27:47.974797096Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T13:27:48.248129750Z [inf]  [13:27:48 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T13:27:48.248133080Z [inf]  [13:27:48 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T13:27:48.287633793Z [inf]  [13:27:48 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T13:27:48.399153349Z [inf]  [13:27:48 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T13:27:48.676593324Z [inf]  [13:27:48 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T13:27:48.676597244Z [inf]  [13:27:48 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T13:27:49.074900151Z [inf]  [13:27:49 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T13:27:50.470895199Z [inf]  [13:27:50 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1772ms.
+2026-07-03T13:27:51.790883523Z [inf]  [13:27:51 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 3111ms.
+2026-07-03T13:27:52.827850669Z [inf]  [13:27:52 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3755ms.
+2026-07-03T13:27:52.978472083Z [inf]  [13:27:52 INFO]: [PluginInitializerManager] Initialized 7 plugins
+2026-07-03T13:27:52.978477233Z [inf]  [13:27:52 INFO]: [PluginInitializerManager] Bukkit plugins (7):
+2026-07-03T13:27:52.978480693Z [inf]   - AuthMe (5.7.0-b2660), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T13:27:55.716908835Z [inf]  [13:27:55 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T13:27:55.781886700Z [inf]  [13:27:55 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T13:27:55.781891130Z [inf]  [13:27:55 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T13:27:56.271219051Z [inf]  [13:27:56 INFO]: No existing world data, creating new world
+2026-07-03T13:27:56.722281692Z [inf]  [13:27:56 INFO]: Loaded 1290 recipes
+2026-07-03T13:27:56.868681176Z [inf]  [13:27:56 INFO]: Loaded 1399 advancements
+2026-07-03T13:27:56.997593693Z [inf]  [13:27:56 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T13:27:56.997599923Z [inf]  [13:27:56 WARN]: ****************************
+2026-07-03T13:27:56.997604133Z [inf]  [13:27:56 INFO]: Loading properties
+2026-07-03T13:27:56.997618572Z [inf]  [13:27:56 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T13:27:56.997629902Z [inf]  [13:27:56 WARN]: ****************************
+2026-07-03T13:27:56.997634562Z [inf]  [13:27:56 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T13:27:56.997638102Z [inf]  [13:27:56 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T13:27:57.019592227Z [inf]  [13:27:57 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T13:27:57.383092974Z [inf]  [13:27:57 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T13:27:57.458094140Z [inf]  [13:27:57 INFO]: Using 2 threads for Netty based IO
+2026-07-03T13:27:57.458099560Z [inf]  [13:27:57 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T13:27:58.098608086Z [inf]  [13:27:58 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T13:27:58.275658972Z [inf]  [13:27:58 INFO]: Default game type: SURVIVAL
+2026-07-03T13:27:58.275663682Z [inf]  [13:27:58 INFO]: Generating keypair
+2026-07-03T13:27:58.458127442Z [inf]  [13:27:58 INFO]: Starting Minecraft server on *:25565
+2026-07-03T13:27:58.530477820Z [inf]  [13:27:58 INFO]: Using epoll channel type
+2026-07-03T13:27:58.547664482Z [inf]  [13:27:58 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T13:27:58.547671442Z [inf]  [13:27:58 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T13:27:59.433944925Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+2026-07-03T13:27:59.788654069Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+2026-07-03T13:27:59.788659199Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+2026-07-03T13:27:59.788663339Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+2026-07-03T13:27:59.788756717Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+2026-07-03T13:27:59.788759927Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+2026-07-03T13:27:59.788762947Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2026-07-03T13:27:59.788766187Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:27:59.788766367Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+2026-07-03T13:27:59.788769727Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:27:59.788770367Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+2026-07-03T13:27:59.788774027Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+2026-07-03T13:27:59.788777407Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+2026-07-03T13:27:59.788777657Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:27:59.788781447Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+2026-07-03T13:27:59.788781947Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:27:59.788786747Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:27:59.788790267Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+2026-07-03T13:27:59.788797937Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:27:59.788802407Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:27:59.788806457Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:27:59.788817527Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:27:59.788830796Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:27:59.788835986Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:27:59.788841226Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:27:59.788844436Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+2026-07-03T13:27:59.788849116Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2026-07-03T13:27:59.788853866Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+2026-07-03T13:27:59.788858376Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+2026-07-03T13:27:59.788863526Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:27:59.788868396Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+2026-07-03T13:27:59.788873726Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+2026-07-03T13:27:59.788878286Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+2026-07-03T13:27:59.788882596Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+2026-07-03T13:27:59.788889276Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+2026-07-03T13:27:59.789560518Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:27:59.789564508Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:27:59.789568288Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:27:59.789571798Z [inf]  [13:27:59 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:27:59.811409395Z [inf]  [13:27:59 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:27:59.811412835Z [inf]  [13:27:59 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:28:01.142154999Z [inf]  [13:28:01 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:28:02.256843899Z [inf]  [13:28:02 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:28:02.258393560Z [inf]  [13:28:02 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:28:03.562255679Z [inf]  [13:28:03 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:28:03.562259179Z [inf]  [13:28:03 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:28:04.790004965Z [inf]  [13:28:04 INFO]: [floodgate] Took 1,108ms to boot Floodgate
+2026-07-03T13:28:04.790009425Z [inf]  [13:28:04 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:28:04.790013505Z [inf]  [13:28:04 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:28:04.790018305Z [inf]  [13:28:04 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:28:04.790023035Z [inf]  [13:28:04 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:28:05.372040958Z [inf]  [13:28:05 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:28:05.372043908Z [inf]  [13:28:05 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:28:05.372046698Z [inf]  [13:28:05 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T13:28:05.372049798Z [inf]  [13:28:05 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:28:05.372052528Z [inf]  [13:28:05 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:28:05.372055498Z [inf]  [13:28:05 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:28:05.372058388Z [inf]  [13:28:05 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:28:05.372061847Z [inf]  [13:28:05 INFO]: Preparing level "world"
+2026-07-03T13:28:14.572984539Z [inf]  [13:28:14 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:28:18.667193154Z [inf]  [13:28:18 INFO]: Time elapsed: 4092 ms
+2026-07-03T13:28:18.667200653Z [inf]  [13:28:18 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T13:28:20.063917273Z [inf]  [13:28:20 INFO]: Time elapsed: 1405 ms
+2026-07-03T13:28:20.063921813Z [inf]  [13:28:20 INFO]: Preparing start region for dimension minecraft:the_end
+2026-07-03T13:28:20.385563194Z [inf]  [13:28:20 INFO]: Time elapsed: 319 ms
+2026-07-03T13:28:20.390086990Z [inf]  [13:28:20 INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+2026-07-03T13:28:20.459933977Z [inf]  [13:28:20 INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+2026-07-03T13:28:20.518489991Z [inf]  [13:28:20 INFO]: [Essentials] Enabling Essentials v2.22.0
+2026-07-03T13:28:21.668692753Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T13:28:21.668698973Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms3G -Xmx3G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T13:28:21.997574528Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T13:28:22.059059286Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T13:28:22.059067626Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T13:28:22.290692062Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ac6cb700-48b5-4782-a8e1-03630916f763/vol_9yshw081luebrlv9
+2026-07-03T13:28:22.339010012Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T13:28:22.607690701Z [inf]  [13:28:22 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T13:28:22.608504072Z [inf]  [13:28:22 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T13:28:22.651608262Z [inf]  [13:28:22 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T13:28:22.781825772Z [inf]  [13:28:22 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T13:28:23.107055120Z [inf]  [13:28:23 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T13:28:23.107058890Z [inf]  [13:28:23 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T13:28:23.449739129Z [inf]  [13:28:23 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T13:28:25.039418202Z [inf]  [13:28:25 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1961ms.
+2026-07-03T13:28:25.796781010Z [inf]  [13:28:25 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 2706ms.
+2026-07-03T13:28:27.013430541Z [inf]  [13:28:26 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3404ms.
+2026-07-03T13:28:27.040149419Z [inf]  [13:28:27 INFO]: [PluginInitializerManager] Initialized 7 plugins
+2026-07-03T13:28:27.040156259Z [inf]  [13:28:27 INFO]: [PluginInitializerManager] Bukkit plugins (7):
+2026-07-03T13:28:27.040161079Z [inf]   - AuthMe (5.7.0-b2660), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T13:28:30.494106924Z [inf]  [13:28:30 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T13:28:30.659894046Z [inf]  [13:28:30 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T13:28:30.659898846Z [inf]  [13:28:30 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T13:28:31.197731930Z [inf]  [13:28:31 INFO]: No existing world data, creating new world
+2026-07-03T13:28:31.720047452Z [inf]  [13:28:31 INFO]: Loaded 1290 recipes
+2026-07-03T13:28:31.847757863Z [inf]  [13:28:31 INFO]: Loaded 1399 advancements
+2026-07-03T13:28:32.002648155Z [inf]  [13:28:31 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T13:28:32.002650605Z [inf]  [13:28:31 WARN]: ****************************
+2026-07-03T13:28:32.002653065Z [inf]  [13:28:31 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T13:28:32.002656435Z [inf]  [13:28:31 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T13:28:32.002658705Z [inf]  [13:28:31 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T13:28:32.002661375Z [inf]  [13:28:31 WARN]: ****************************
+2026-07-03T13:28:32.002664085Z [inf]  [13:28:31 INFO]: Loading properties
+2026-07-03T13:28:32.023275116Z [inf]  [13:28:32 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T13:28:32.426395856Z [inf]  [13:28:32 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T13:28:32.490942078Z [inf]  [13:28:32 INFO]: Using 2 threads for Netty based IO
+2026-07-03T13:28:32.490945458Z [inf]  [13:28:32 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T13:28:33.339772974Z [inf]  [13:28:33 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T13:28:33.572900513Z [inf]  [13:28:33 INFO]: Default game type: SURVIVAL
+2026-07-03T13:28:33.572905383Z [inf]  [13:28:33 INFO]: Generating keypair
+2026-07-03T13:28:33.594338005Z [inf]  [13:28:33 INFO]: Starting Minecraft server on *:25565
+2026-07-03T13:28:33.644730866Z [inf]  [13:28:33 INFO]: Using epoll channel type
+2026-07-03T13:28:33.659838734Z [inf]  [13:28:33 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T13:28:33.659843614Z [inf]  [13:28:33 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T13:28:34.513793788Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+2026-07-03T13:28:34.857213098Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+2026-07-03T13:28:34.857218198Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+2026-07-03T13:28:34.857221758Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2026-07-03T13:28:34.857224508Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+2026-07-03T13:28:34.857227288Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+2026-07-03T13:28:34.857229788Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+2026-07-03T13:28:34.857234047Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+2026-07-03T13:28:34.857237077Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+2026-07-03T13:28:34.857240797Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+2026-07-03T13:28:34.857244517Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+2026-07-03T13:28:34.857247177Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+2026-07-03T13:28:34.857917679Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+2026-07-03T13:28:34.857922180Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2026-07-03T13:28:34.857924770Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+2026-07-03T13:28:34.857927970Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+2026-07-03T13:28:34.857930429Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:28:34.857933369Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+2026-07-03T13:28:34.857936379Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+2026-07-03T13:28:34.857939069Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+2026-07-03T13:28:34.857942339Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+2026-07-03T13:28:34.857945059Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+2026-07-03T13:28:34.857947989Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+2026-07-03T13:28:34.859976244Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:28:34.859987844Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:28:34.859993754Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:28:34.860002234Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:28:34.860010524Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:28:34.860015434Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:28:34.860019754Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:28:34.860024464Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:28:34.860030754Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:28:34.860035893Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:28:34.860040593Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:28:34.860045143Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:28:34.860050053Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:28:34.860054483Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:28:34.860059753Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:28:34.860064983Z [inf]  [13:28:34 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:28:35.037334676Z [inf]  [13:28:34 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:28:35.037339665Z [inf]  [13:28:34 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:28:35.995717291Z [inf]  [13:28:35 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:28:37.167272376Z [inf]  [13:28:37 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:28:37.167277246Z [inf]  [13:28:37 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:28:38.617954584Z [inf]  [13:28:38 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:28:38.624606315Z [inf]  [13:28:38 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:28:40.299921455Z [inf]  [13:28:40 INFO]: [floodgate] Took 1,673ms to boot Floodgate
+2026-07-03T13:28:40.299930745Z [inf]  [13:28:40 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:28:40.299934625Z [inf]  [13:28:40 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:28:40.299938475Z [inf]  [13:28:40 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:28:40.299942854Z [inf]  [13:28:40 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:28:41.095284545Z [inf]  [13:28:40 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:28:41.095287035Z [inf]  [13:28:41 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:28:41.095289555Z [inf]  [13:28:41 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T13:28:41.095291915Z [inf]  [13:28:41 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:28:41.095294255Z [inf]  [13:28:41 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:28:41.095297565Z [inf]  [13:28:41 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:28:41.095300135Z [inf]  [13:28:41 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:28:41.095302465Z [inf]  [13:28:41 INFO]: Preparing level "world"
+2026-07-03T13:28:50.910077080Z [inf]  [13:28:50 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:28:55.542013004Z [inf]  [13:28:55 INFO]: Time elapsed: 4630 ms
+2026-07-03T13:28:55.542017994Z [inf]  [13:28:55 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T13:28:56.585027008Z [inf]  [13:28:56 INFO]: Preparing start region for dimension minecraft:the_end
+2026-07-03T13:28:56.585063197Z [inf]  [13:28:56 INFO]: Time elapsed: 1040 ms
+2026-07-03T13:28:57.040155901Z [inf]  [13:28:57 INFO]: Time elapsed: 457 ms
+2026-07-03T13:28:57.040165080Z [inf]  [13:28:57 INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+2026-07-03T13:28:57.255977738Z [inf]  [13:28:57 INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+2026-07-03T13:28:58.343773963Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T13:28:58.349378016Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms3G -Xmx3G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T13:28:58.711699717Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T13:28:58.767979529Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T13:28:58.767985428Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T13:28:58.914316792Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ac6cb700-48b5-4782-a8e1-03630916f763/vol_9yshw081luebrlv9
+2026-07-03T13:28:59.261897234Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T13:28:59.414870489Z [inf]  [13:28:59 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T13:28:59.414876399Z [inf]  [13:28:59 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T13:28:59.453563443Z [inf]  [13:28:59 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T13:28:59.592274940Z [inf]  [13:28:59 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T13:28:59.934716271Z [inf]  [13:28:59 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T13:28:59.937042903Z [inf]  [13:28:59 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T13:29:00.274249678Z [inf]  [13:29:00 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T13:29:01.756119681Z [inf]  [13:29:01 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1818ms.
+2026-07-03T13:29:03.270085098Z [inf]  [13:29:03 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 3331ms.
+2026-07-03T13:29:04.670549223Z [inf]  [13:29:04 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 4395ms.
+2026-07-03T13:29:04.805152150Z [inf]  [13:29:04 INFO]: [PluginInitializerManager] Initialized 7 plugins
+2026-07-03T13:29:04.805157140Z [inf]  [13:29:04 INFO]: [PluginInitializerManager] Bukkit plugins (7):
+2026-07-03T13:29:04.805160300Z [inf]   - AuthMe (5.7.0-b2660), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T13:29:07.597624412Z [inf]  [13:29:07 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T13:29:07.749461292Z [inf]  [13:29:07 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T13:29:07.749464182Z [inf]  [13:29:07 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T13:29:08.305220281Z [inf]  [13:29:08 INFO]: No existing world data, creating new world
+2026-07-03T13:29:08.756027536Z [inf]  [13:29:08 INFO]: Loaded 1290 recipes
+2026-07-03T13:29:08.902463651Z [inf]  [13:29:08 INFO]: Loaded 1399 advancements
+2026-07-03T13:29:09.077770236Z [inf]  [13:29:09 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T13:29:09.077776206Z [inf]  [13:29:09 WARN]: ****************************
+2026-07-03T13:29:09.077779236Z [inf]  [13:29:09 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T13:29:09.077782026Z [inf]  [13:29:09 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T13:29:09.077785146Z [inf]  [13:29:09 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T13:29:09.077788616Z [inf]  [13:29:09 WARN]: ****************************
+2026-07-03T13:29:09.077791366Z [inf]  [13:29:09 INFO]: Loading properties
+2026-07-03T13:29:09.136498369Z [inf]  [13:29:09 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T13:29:09.514756699Z [inf]  [13:29:09 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T13:29:09.546097561Z [inf]  [13:29:09 INFO]: Using 2 threads for Netty based IO
+2026-07-03T13:29:09.546101001Z [inf]  [13:29:09 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T13:29:10.381510428Z [inf]  [13:29:10 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T13:29:10.554849449Z [inf]  [13:29:10 INFO]: Default game type: SURVIVAL
+2026-07-03T13:29:10.554852289Z [inf]  [13:29:10 INFO]: Generating keypair
+2026-07-03T13:29:10.574561911Z [inf]  [13:29:10 INFO]: Starting Minecraft server on *:25565
+2026-07-03T13:29:10.646016190Z [inf]  [13:29:10 INFO]: Using epoll channel type
+2026-07-03T13:29:10.646029899Z [inf]  [13:29:10 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T13:29:10.646038139Z [inf]  [13:29:10 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T13:29:11.562301411Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+2026-07-03T13:29:11.846762152Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+2026-07-03T13:29:11.846767652Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+2026-07-03T13:29:11.846770732Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2026-07-03T13:29:11.846773852Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+2026-07-03T13:29:11.846776842Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+2026-07-03T13:29:11.846780352Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+2026-07-03T13:29:11.846783242Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+2026-07-03T13:29:11.846785832Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+2026-07-03T13:29:11.846788682Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+2026-07-03T13:29:11.846791422Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+2026-07-03T13:29:11.846795552Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+2026-07-03T13:29:11.847688491Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+2026-07-03T13:29:11.847699181Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2026-07-03T13:29:11.847703791Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+2026-07-03T13:29:11.847707991Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+2026-07-03T13:29:11.847711841Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:29:11.847716981Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+2026-07-03T13:29:11.847720581Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+2026-07-03T13:29:11.847724051Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+2026-07-03T13:29:11.847727651Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+2026-07-03T13:29:11.847731141Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+2026-07-03T13:29:11.847734931Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+2026-07-03T13:29:11.848537821Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:29:11.848540591Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:29:11.848542991Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:29:11.848546011Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:29:11.848548551Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:29:11.848551391Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:29:11.848554091Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:29:11.848556521Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:29:11.848558901Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:29:11.848561261Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:29:11.848564581Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:29:11.848567791Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:29:11.849272792Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:29:11.849275482Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:29:11.849278922Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:29:11.849281862Z [inf]  [13:29:11 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:29:11.919062381Z [inf]  [13:29:11 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:29:11.919067320Z [inf]  [13:29:11 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:29:13.307975085Z [inf]  [13:29:13 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:29:14.649511651Z [inf]  [13:29:14 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:29:14.655152153Z [inf]  [13:29:14 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:29:16.128519279Z [inf]  [13:29:16 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:29:16.133785146Z [inf]  [13:29:16 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:29:17.340908752Z [inf]  [13:29:17 INFO]: [floodgate] Took 1,097ms to boot Floodgate
+2026-07-03T13:29:17.340913732Z [inf]  [13:29:17 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:29:17.340917372Z [inf]  [13:29:17 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:29:17.340920892Z [inf]  [13:29:17 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:29:17.340925632Z [inf]  [13:29:17 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:29:17.776925655Z [inf]  [13:29:17 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:29:17.781614389Z [inf]  [13:29:17 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:29:17.787149282Z [inf]  [13:29:17 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T13:29:17.787153512Z [inf]  [13:29:17 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:29:17.787156522Z [inf]  [13:29:17 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:29:17.787159552Z [inf]  [13:29:17 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:29:17.787162392Z [inf]  [13:29:17 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:29:17.787165582Z [inf]  [13:29:17 INFO]: Preparing level "world"
+2026-07-03T13:29:26.397213736Z [inf]  [13:29:26 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:29:30.460126984Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T13:29:30.460130504Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms3G -Xmx3G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T13:29:30.695626285Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T13:29:30.733165832Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T13:29:30.733174093Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T13:29:31.003667680Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ac6cb700-48b5-4782-a8e1-03630916f763/vol_9yshw081luebrlv9
+2026-07-03T13:29:31.006930091Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T13:29:31.265690012Z [inf]  [13:29:31 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T13:29:31.265693272Z [inf]  [13:29:31 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T13:29:31.398358302Z [inf]  [13:29:31 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T13:29:31.440216897Z [inf]  [13:29:31 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T13:29:31.769292720Z [inf]  [13:29:31 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T13:29:31.769299390Z [inf]  [13:29:31 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T13:29:32.176050326Z [inf]  [13:29:32 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T13:29:33.680997872Z [inf]  [13:29:33 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1911ms.
+2026-07-03T13:29:34.897932871Z [inf]  [13:29:34 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 3126ms.
+2026-07-03T13:29:36.026737791Z [inf]  [13:29:36 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3849ms.
+2026-07-03T13:29:36.173013878Z [inf]  [13:29:36 INFO]: [PluginInitializerManager] Initialized 7 plugins
+2026-07-03T13:29:36.173018888Z [inf]  [13:29:36 INFO]: [PluginInitializerManager] Bukkit plugins (7):
+2026-07-03T13:29:36.173023798Z [inf]   - AuthMe (5.7.0-b2660), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T13:29:39.136807226Z [inf]  [13:29:39 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T13:29:39.273298350Z [inf]  [13:29:39 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T13:29:39.273310200Z [inf]  [13:29:39 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T13:29:39.829620503Z [inf]  [13:29:39 INFO]: No existing world data, creating new world
+2026-07-03T13:29:40.313771675Z [inf]  [13:29:40 INFO]: Loaded 1290 recipes
+2026-07-03T13:29:40.459442259Z [inf]  [13:29:40 INFO]: Loaded 1399 advancements
+2026-07-03T13:29:40.619131174Z [inf]  [13:29:40 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T13:29:40.619134184Z [inf]  [13:29:40 WARN]: ****************************
+2026-07-03T13:29:40.619136664Z [inf]  [13:29:40 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T13:29:40.619139084Z [inf]  [13:29:40 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T13:29:40.619141754Z [inf]  [13:29:40 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T13:29:40.619144664Z [inf]  [13:29:40 WARN]: ****************************
+2026-07-03T13:29:40.619146984Z [inf]  [13:29:40 INFO]: Loading properties
+2026-07-03T13:29:40.651564793Z [inf]  [13:29:40 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T13:29:41.060343065Z [inf]  [13:29:40 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T13:29:41.060347835Z [inf]  [13:29:41 INFO]: Using 2 threads for Netty based IO
+2026-07-03T13:29:41.066825787Z [inf]  [13:29:41 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T13:29:41.654097306Z [inf]  [13:29:41 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T13:29:41.812499047Z [inf]  [13:29:41 INFO]: Default game type: SURVIVAL
+2026-07-03T13:29:41.812502767Z [inf]  [13:29:41 INFO]: Generating keypair
+2026-07-03T13:29:41.824125807Z [inf]  [13:29:41 INFO]: Starting Minecraft server on *:25565
+2026-07-03T13:29:41.873957195Z [inf]  [13:29:41 INFO]: Using epoll channel type
+2026-07-03T13:29:41.884937764Z [inf]  [13:29:41 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T13:29:41.884942274Z [inf]  [13:29:41 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T13:29:42.836909526Z [inf]  [13:29:42 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+2026-07-03T13:29:43.060298953Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+2026-07-03T13:29:43.060304583Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+2026-07-03T13:29:43.060308653Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2026-07-03T13:29:43.060311963Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+2026-07-03T13:29:43.060315803Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+2026-07-03T13:29:43.060319633Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+2026-07-03T13:29:43.060324023Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+2026-07-03T13:29:43.060328543Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+2026-07-03T13:29:43.060332793Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+2026-07-03T13:29:43.065146595Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+2026-07-03T13:29:43.065151415Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+2026-07-03T13:29:43.065154965Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+2026-07-03T13:29:43.065158255Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2026-07-03T13:29:43.065161175Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+2026-07-03T13:29:43.065164115Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+2026-07-03T13:29:43.065167225Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:29:43.065170025Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+2026-07-03T13:29:43.065172995Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+2026-07-03T13:29:43.065175945Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+2026-07-03T13:29:43.065178735Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+2026-07-03T13:29:43.066026624Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+2026-07-03T13:29:43.066037534Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+2026-07-03T13:29:43.066042394Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:29:43.066047354Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:29:43.066054594Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:29:43.066058403Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:29:43.066062243Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:29:43.066067133Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:29:43.066073603Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:29:43.066077293Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:29:43.066081253Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:29:43.066084983Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:29:43.067025062Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:29:43.067030322Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:29:43.067033802Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:29:43.067037592Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:29:43.067040402Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:29:43.067043362Z [inf]  [13:29:43 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:29:43.127525743Z [inf]  [13:29:43 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:29:43.127538073Z [inf]  [13:29:43 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:29:44.513967268Z [inf]  [13:29:44 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:29:45.552583106Z [inf]  [13:29:45 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:29:45.573351276Z [inf]  [13:29:45 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:29:47.040278290Z [inf]  [13:29:47 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:29:47.045294869Z [inf]  [13:29:47 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:29:48.308137604Z [inf]  [13:29:48 INFO]: [floodgate] Took 1,254ms to boot Floodgate
+2026-07-03T13:29:48.308142904Z [inf]  [13:29:48 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:29:48.308146144Z [inf]  [13:29:48 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:29:48.308149084Z [inf]  [13:29:48 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:29:48.308152324Z [inf]  [13:29:48 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:29:48.866489163Z [inf]  [13:29:48 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:29:48.866498733Z [inf]  [13:29:48 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:29:48.871798059Z [inf]  [13:29:48 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T13:29:48.871803419Z [inf]  [13:29:48 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:29:48.871806499Z [inf]  [13:29:48 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:29:48.871809369Z [inf]  [13:29:48 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:29:48.871812219Z [inf]  [13:29:48 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:29:48.871815429Z [inf]  [13:29:48 INFO]: Preparing level "world"
+2026-07-03T13:29:56.988001029Z [inf]  [13:29:56 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:30:02.292252991Z [inf]  [13:30:02 INFO]: Time elapsed: 5298 ms
+2026-07-03T13:30:02.292257551Z [inf]  [13:30:02 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T13:30:03.686635620Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T13:30:03.686640990Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms3G -Xmx3G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T13:30:03.872202788Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/ac6cb700-48b5-4782-a8e1-03630916f763/vol_9yshw081luebrlv9
+2026-07-03T13:30:03.954807578Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T13:30:04.037721848Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T13:30:04.037728237Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T13:30:04.366404025Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T13:30:04.733077085Z [inf]  [13:30:04 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T13:30:04.733079924Z [inf]  [13:30:04 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T13:30:04.733083314Z [inf]  [13:30:04 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T13:30:04.841325510Z [inf]  [13:30:04 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T13:30:05.145168106Z [inf]  [13:30:05 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T13:30:05.145173836Z [inf]  [13:30:05 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T13:30:05.463202723Z [inf]  [13:30:05 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T13:30:06.940682690Z [inf]  [13:30:06 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1802ms.
+2026-07-03T13:30:08.048375325Z [inf]  [13:30:08 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 2904ms.
+2026-07-03T13:30:09.263626645Z [inf]  [13:30:09 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3800ms.
+2026-07-03T13:30:09.416699220Z [inf]  [13:30:09 INFO]: [PluginInitializerManager] Initialized 7 plugins
+2026-07-03T13:30:09.416703020Z [inf]  [13:30:09 INFO]: [PluginInitializerManager] Bukkit plugins (7):
+2026-07-03T13:30:09.416706440Z [inf]   - AuthMe (5.7.0-b2660), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T13:30:12.369229244Z [inf]  [13:30:12 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T13:30:12.511148703Z [inf]  [13:30:12 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T13:30:12.511156333Z [inf]  [13:30:12 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T13:30:13.049321875Z [inf]  [13:30:13 INFO]: No existing world data, creating new world
+2026-07-03T13:30:13.511762289Z [inf]  [13:30:13 INFO]: Loaded 1290 recipes
+2026-07-03T13:30:13.767479327Z [inf]  [13:30:13 INFO]: Loaded 1399 advancements
+2026-07-03T13:30:13.839146643Z [inf]  [13:30:13 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T13:30:13.839152833Z [inf]  [13:30:13 WARN]: ****************************
+2026-07-03T13:30:13.839157433Z [inf]  [13:30:13 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T13:30:13.839161573Z [inf]  [13:30:13 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T13:30:13.839166403Z [inf]  [13:30:13 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T13:30:13.839170173Z [inf]  [13:30:13 WARN]: ****************************
+2026-07-03T13:30:13.839174313Z [inf]  [13:30:13 INFO]: Loading properties
+2026-07-03T13:30:13.877608010Z [inf]  [13:30:13 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T13:30:14.273130991Z [inf]  [13:30:14 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T13:30:14.346875132Z [inf]  [13:30:14 INFO]: Using 2 threads for Netty based IO
+2026-07-03T13:30:14.346879902Z [inf]  [13:30:14 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T13:30:15.039564890Z [inf]  [13:30:15 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T13:30:15.220379881Z [inf]  [13:30:15 INFO]: Default game type: SURVIVAL
+2026-07-03T13:30:15.220393490Z [inf]  [13:30:15 INFO]: Generating keypair
+2026-07-03T13:30:15.226855393Z [inf]  [13:30:15 INFO]: Starting Minecraft server on *:25565
+2026-07-03T13:30:15.282901648Z [inf]  [13:30:15 INFO]: Using epoll channel type
+2026-07-03T13:30:15.295064841Z [inf]  [13:30:15 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T13:30:15.295077901Z [inf]  [13:30:15 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T13:30:16.164154423Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+2026-07-03T13:30:16.463162948Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+2026-07-03T13:30:16.463165478Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+2026-07-03T13:30:16.463168138Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+2026-07-03T13:30:16.463171388Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+2026-07-03T13:30:16.463174878Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+2026-07-03T13:30:16.463178228Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+2026-07-03T13:30:16.463185708Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+2026-07-03T13:30:16.463188308Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+2026-07-03T13:30:16.463191078Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+2026-07-03T13:30:16.463193878Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+2026-07-03T13:30:16.463196408Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+2026-07-03T13:30:16.464513532Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+2026-07-03T13:30:16.464524432Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+2026-07-03T13:30:16.464529501Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+2026-07-03T13:30:16.464533121Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+2026-07-03T13:30:16.464540671Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+2026-07-03T13:30:16.464545451Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+2026-07-03T13:30:16.464549901Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+2026-07-03T13:30:16.464553561Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+2026-07-03T13:30:16.464556991Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+2026-07-03T13:30:16.464560991Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+2026-07-03T13:30:16.464564531Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+2026-07-03T13:30:16.465653848Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2026-07-03T13:30:16.465668538Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+2026-07-03T13:30:16.465673578Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+2026-07-03T13:30:16.465676668Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+2026-07-03T13:30:16.465679768Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+2026-07-03T13:30:16.465682988Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+2026-07-03T13:30:16.465686978Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+2026-07-03T13:30:16.465690747Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+2026-07-03T13:30:16.465693847Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+2026-07-03T13:30:16.465697247Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+2026-07-03T13:30:16.465700047Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+2026-07-03T13:30:16.465703387Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+2026-07-03T13:30:16.466478818Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+2026-07-03T13:30:16.466482588Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+2026-07-03T13:30:16.466485338Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+2026-07-03T13:30:16.466487908Z [inf]  [13:30:16 INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+2026-07-03T13:30:16.492608073Z [inf]  [13:30:16 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T13:30:16.492611533Z [inf]  [13:30:16 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T13:30:17.983925504Z [inf]  [13:30:17 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T13:30:19.373242925Z [inf]  [13:30:19 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T13:30:19.379287572Z [inf]  [13:30:19 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T13:30:20.974534530Z [inf]  [13:30:20 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T13:30:20.978909378Z [inf]  [13:30:20 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T13:30:22.141128896Z [inf]  [13:30:22 INFO]: [floodgate] Took 1,163ms to boot Floodgate
+2026-07-03T13:30:22.141141026Z [inf]  [13:30:22 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T13:30:22.141146026Z [inf]  [13:30:22 INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-b2660
+2026-07-03T13:30:22.141149766Z [inf]  [13:30:22 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T13:30:22.141153866Z [inf]  [13:30:22 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T13:30:22.818808876Z [inf]  [13:30:22 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T13:30:22.818815446Z [inf]  [13:30:22 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T13:30:22.818819546Z [inf]  [13:30:22 INFO]: Preparing level "world"
+2026-07-03T13:30:22.818850236Z [inf]  [13:30:22 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T13:30:22.818855676Z [inf]  [13:30:22 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T13:30:22.818859706Z [inf]  [13:30:22 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T13:30:22.818863805Z [inf]  [13:30:22 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T13:30:22.818870185Z [inf]  [13:30:22 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T13:30:30.455258073Z [inf]  [13:30:30 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T13:30:34.518205381Z [inf]  [13:30:34 INFO]: Time elapsed: 4083 ms
+2026-07-03T13:30:34.518217491Z [inf]  [13:30:34 INFO]: Preparing start region for dimension minecraft:the_nether
