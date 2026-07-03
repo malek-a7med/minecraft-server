@@ -1,0 +1,1001 @@
+2026-07-03T11:55:17.309048254Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.309054624Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.309059574Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.309064114Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.309068544Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.309823515Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.432810813Z [inf]  [11:55:17 ERROR]: Fatal error trying to convert Chunky v1.5.3:org/popcraft/chunky/ChunkyBukkit.class
+2026-07-03T11:55:17.432817323Z [inf]  java.lang.IllegalArgumentException: Unsupported class file major version 69
+2026-07-03T11:55:17.432823122Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:9.7]
+2026-07-03T11:55:17.432828782Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:9.7]
+2026-07-03T11:55:17.432834182Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:9.7]
+2026-07-03T11:55:17.432839732Z [inf]  	at org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:193) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432848902Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:399) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432854502Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:17.432859422Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.432865312Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:17.432873742Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:17.432878462Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.432883462Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:55:17.432887952Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.432921881Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.432926621Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:17.432946281Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432955551Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432961261Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432965911Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432970641Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432975680Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432980400Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432984770Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432992100Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.432997390Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.433001670Z [inf]  [11:55:17 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Chunky.jar' in folder 'plugins'
+2026-07-03T11:55:17.433006120Z [inf]  org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:55:17.433885509Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.433890289Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.433894459Z [inf]  Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:55:17.433899109Z [inf]  	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+2026-07-03T11:55:17.433902459Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.433918488Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.433923619Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.433927269Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.433930739Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.433934389Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.433937869Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.433941699Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.434517522Z [inf]  	at java.base/java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.434523792Z [inf]  	at java.base/java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.434528812Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:17.434532662Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.434537472Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:17.434542142Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:17.434546581Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.434551221Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:55:17.434557031Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.434561361Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:55:17.434566451Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:17.434571541Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:17.434576041Z [inf]  	... 9 more
+2026-07-03T11:55:17.434580081Z [inf]  [11:55:17 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T11:55:17.434588161Z [inf]  [11:55:17 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T11:55:18.590574761Z [inf]  [11:55:18 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T11:55:19.944902909Z [inf]  [11:55:19 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T11:55:19.985114845Z [inf]  [11:55:19 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T11:55:21.514821017Z [inf]  [11:55:21 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T11:55:21.514824807Z [inf]  [11:55:21 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T11:55:22.494489404Z [inf]  [11:55:22 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T11:55:22.494540913Z [inf]  [11:55:22 INFO]: [floodgate] Took 1,008ms to boot Floodgate
+2026-07-03T11:55:22.494547253Z [inf]  [11:55:22 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T11:55:22.494553173Z [inf]  [11:55:22 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T11:55:22.979216449Z [inf]  [11:55:22 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T11:55:22.979220769Z [inf]  [11:55:22 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T11:55:22.991583489Z [inf]  [11:55:22 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T11:55:22.991586169Z [inf]  [11:55:22 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T11:55:22.991589159Z [inf]  [11:55:22 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T11:55:22.991591859Z [inf]  [11:55:22 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T11:55:22.991594629Z [inf]  [11:55:22 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T11:55:22.991596929Z [inf]  [11:55:22 INFO]: Preparing level "world"
+2026-07-03T11:55:32.734441451Z [inf]  [11:55:32 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T11:55:38.048599348Z [inf]  [11:55:38 INFO]: Time elapsed: 5313 ms
+2026-07-03T11:55:38.048603748Z [inf]  [11:55:38 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T11:55:39.780384718Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/b10686d3-f29d-4e1e-b622-cd2d574716e0/vol_9yshw081luebrlv9
+2026-07-03T11:55:39.908195453Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T11:55:39.908198443Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms1G -Xmx1G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T11:55:40.241540964Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T11:55:40.275409265Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T11:55:40.275415505Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T11:55:40.625873188Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T11:55:40.805703890Z [inf]  [11:55:40 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T11:55:40.805709620Z [inf]  [11:55:40 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T11:55:40.856272321Z [inf]  [11:55:40 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T11:55:41.004986137Z [inf]  [11:55:40 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T11:55:41.286073897Z [inf]  [11:55:41 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T11:55:41.286076827Z [inf]  [11:55:41 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T11:55:41.638221091Z [inf]  [11:55:41 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T11:55:42.952935787Z [inf]  [11:55:42 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1646ms.
+2026-07-03T11:55:43.888485895Z [inf]  [11:55:43 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 2603ms.
+2026-07-03T11:55:44.906082403Z [inf]  [11:55:44 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3279ms.
+2026-07-03T11:55:45.041867017Z [inf]  [11:55:45 INFO]: [PluginInitializerManager] Initialized 8 plugins
+2026-07-03T11:55:45.041870837Z [inf]  [11:55:45 INFO]: [PluginInitializerManager] Bukkit plugins (8):
+2026-07-03T11:55:45.041874776Z [inf]   - AuthMe (6.0.0-b2734), Chunky (1.5.3), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T11:55:47.809865127Z [inf]  [11:55:47 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T11:55:47.924955389Z [inf]  [11:55:47 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T11:55:47.924959669Z [inf]  [11:55:47 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T11:55:48.485361431Z [inf]  [11:55:48 INFO]: No existing world data, creating new world
+2026-07-03T11:55:48.912225954Z [inf]  [11:55:48 INFO]: Loaded 1290 recipes
+2026-07-03T11:55:49.033640680Z [inf]  [11:55:49 INFO]: Loaded 1399 advancements
+2026-07-03T11:55:49.191407288Z [inf]  [11:55:49 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T11:55:49.191411988Z [inf]  [11:55:49 WARN]: ****************************
+2026-07-03T11:55:49.191415428Z [inf]  [11:55:49 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T11:55:49.191418268Z [inf]  [11:55:49 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T11:55:49.191884922Z [inf]  [11:55:49 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T11:55:49.191887932Z [inf]  [11:55:49 WARN]: ****************************
+2026-07-03T11:55:49.191890622Z [inf]  [11:55:49 INFO]: Loading properties
+2026-07-03T11:55:49.234565637Z [inf]  [11:55:49 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T11:55:49.622439790Z [inf]  [11:55:49 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T11:55:49.693932538Z [inf]  [11:55:49 INFO]: Using 2 threads for Netty based IO
+2026-07-03T11:55:49.693942367Z [inf]  [11:55:49 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T11:55:50.655112897Z [inf]  [11:55:50 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T11:55:50.730045213Z [inf]  [11:55:50 INFO]: Default game type: SURVIVAL
+2026-07-03T11:55:50.730049733Z [inf]  [11:55:50 INFO]: Generating keypair
+2026-07-03T11:55:50.743554300Z [inf]  [11:55:50 INFO]: Starting Minecraft server on *:25565
+2026-07-03T11:55:50.810528013Z [inf]  [11:55:50 INFO]: Using epoll channel type
+2026-07-03T11:55:50.832163111Z [inf]  [11:55:50 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T11:55:50.832166601Z [inf]  [11:55:50 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T11:55:51.657883005Z [inf]  [11:55:51 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'AuthMe.jar' in folder 'plugins/.paper-remapped'
+2026-07-03T11:55:51.657886595Z [inf]  org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.11
+2026-07-03T11:55:51.657890305Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657893355Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657896395Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657901335Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657904525Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657908135Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657911325Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657915025Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657918164Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657921184Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.657999253Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.694655801Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:55:51.694656691Z [inf]  [11:55:51 ERROR]: Fatal error trying to convert Chunky v1.5.3:org/popcraft/chunky/ChunkyBukkit.class
+2026-07-03T11:55:51.694659591Z [inf]  java.lang.IllegalArgumentException: Unsupported class file major version 69
+2026-07-03T11:55:51.694662371Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:9.7]
+2026-07-03T11:55:51.694662941Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.694664981Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:9.7]
+2026-07-03T11:55:51.694666701Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.694667531Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:9.7]
+2026-07-03T11:55:51.694669811Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:51.694670111Z [inf]  	at org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:193) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.694672681Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:399) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.694675151Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:51.694677491Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.694679721Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:51.694681991Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:51.694684201Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.695429561Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.695432001Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.695434451Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.695437171Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.695439951Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.695444141Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.695446321Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.695448651Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.695450971Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.695453621Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.695456031Z [inf]  [11:55:51 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Chunky.jar' in folder 'plugins'
+2026-07-03T11:55:51.695458501Z [inf]  org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:55:51.696259102Z [inf]  Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:55:51.696262782Z [inf]  	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+2026-07-03T11:55:51.696271882Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.696279181Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.696282911Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.696286551Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.696290671Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.696294561Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.696298231Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.696302201Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.696305861Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.696309381Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.697044343Z [inf]  	at java.base/java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.697051673Z [inf]  [11:55:51 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T11:55:51.697054393Z [inf]  	at java.base/java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.697058562Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:51.697062562Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.697066082Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:51.697071152Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:51.697076402Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.697080662Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:55:51.697084262Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.697088892Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:55:51.697089612Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:55:51.697114282Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:55:51.697120732Z [inf]  	... 9 more
+2026-07-03T11:55:51.697124702Z [inf]  [11:55:51 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T11:55:52.918490313Z [inf]  [11:55:52 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T11:55:54.101473718Z [inf]  [11:55:54 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T11:55:54.112844921Z [inf]  [11:55:54 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T11:55:55.322789961Z [inf]  [11:55:55 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T11:55:55.322794211Z [inf]  [11:55:55 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T11:55:56.491567056Z [inf]  [11:55:56 INFO]: [floodgate] Took 1,170ms to boot Floodgate
+2026-07-03T11:55:56.491570256Z [inf]  [11:55:56 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T11:55:56.491573316Z [inf]  [11:55:56 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T11:55:56.491575736Z [inf]  [11:55:56 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T11:55:57.059207542Z [inf]  [11:55:57 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T11:55:57.059211132Z [inf]  [11:55:57 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T11:55:57.070412977Z [inf]  [11:55:57 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T11:55:57.070418017Z [inf]  [11:55:57 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T11:55:57.070421037Z [inf]  [11:55:57 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T11:55:57.070424297Z [inf]  [11:55:57 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T11:55:57.070427837Z [inf]  [11:55:57 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T11:55:57.070431107Z [inf]  [11:55:57 INFO]: Preparing level "world"
+2026-07-03T11:56:06.307065283Z [inf]  [11:56:06 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T11:56:08.829460275Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T11:56:08.829465935Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms1G -Xmx1G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T11:56:09.144160680Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T11:56:09.196147603Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T11:56:09.196152483Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T11:56:09.427154957Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/b10686d3-f29d-4e1e-b622-cd2d574716e0/vol_9yshw081luebrlv9
+2026-07-03T11:56:09.454280601Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T11:56:09.721346750Z [inf]  [11:56:09 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T11:56:09.721349740Z [inf]  [11:56:09 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T11:56:09.743200547Z [inf]  [11:56:09 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T11:56:09.877732734Z [inf]  [11:56:09 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T11:56:10.161201476Z [inf]  [11:56:10 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T11:56:10.161205756Z [inf]  [11:56:10 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T11:56:10.448533131Z [inf]  [11:56:10 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T11:56:12.591296861Z [inf]  [11:56:12 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 2440ms.
+2026-07-03T11:56:13.849951863Z [inf]  [11:56:13 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 3702ms.
+2026-07-03T11:56:15.130308514Z [inf]  [11:56:15 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 4676ms.
+2026-07-03T11:56:15.265525343Z [inf]  [11:56:15 INFO]: [PluginInitializerManager] Initialized 8 plugins
+2026-07-03T11:56:15.266157256Z [inf]  [11:56:15 INFO]: [PluginInitializerManager] Bukkit plugins (8):
+2026-07-03T11:56:15.266160396Z [inf]   - AuthMe (6.0.0-b2734), Chunky (1.5.3), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T11:56:17.898369624Z [inf]  [11:56:17 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T11:56:17.980372015Z [inf]  [11:56:17 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T11:56:17.980379885Z [inf]  [11:56:17 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T11:56:18.502578548Z [inf]  [11:56:18 INFO]: No existing world data, creating new world
+2026-07-03T11:56:18.964449448Z [inf]  [11:56:18 INFO]: Loaded 1290 recipes
+2026-07-03T11:56:19.097159468Z [inf]  [11:56:19 INFO]: Loaded 1399 advancements
+2026-07-03T11:56:19.277497804Z [inf]  [11:56:19 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T11:56:19.277502223Z [inf]  [11:56:19 WARN]: ****************************
+2026-07-03T11:56:19.277505673Z [inf]  [11:56:19 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T11:56:19.277508253Z [inf]  [11:56:19 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T11:56:19.277510853Z [inf]  [11:56:19 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T11:56:19.277513723Z [inf]  [11:56:19 WARN]: ****************************
+2026-07-03T11:56:19.277516533Z [inf]  [11:56:19 INFO]: Loading properties
+2026-07-03T11:56:19.322319113Z [inf]  [11:56:19 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T11:56:19.691574620Z [inf]  [11:56:19 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T11:56:19.865364065Z [inf]  [11:56:19 INFO]: Using 2 threads for Netty based IO
+2026-07-03T11:56:19.865368224Z [inf]  [11:56:19 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T11:56:20.533600356Z [inf]  [11:56:20 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T11:56:20.678043124Z [inf]  [11:56:20 INFO]: Default game type: SURVIVAL
+2026-07-03T11:56:20.678048684Z [inf]  [11:56:20 INFO]: Generating keypair
+2026-07-03T11:56:20.706097126Z [inf]  [11:56:20 INFO]: Starting Minecraft server on *:25565
+2026-07-03T11:56:20.747620996Z [inf]  [11:56:20 INFO]: Using epoll channel type
+2026-07-03T11:56:20.937454577Z [inf]  [11:56:20 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T11:56:20.937457557Z [inf]  [11:56:20 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T11:56:21.629657649Z [inf]  [11:56:21 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'AuthMe.jar' in folder 'plugins/.paper-remapped'
+2026-07-03T11:56:21.629662259Z [inf]  org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.11
+2026-07-03T11:56:21.629664829Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.629667389Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.629670319Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.629674159Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.629676809Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.629679309Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.629681639Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.629684029Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.629687059Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.629689619Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.630377771Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.693124054Z [inf]  [11:56:21 ERROR]: Fatal error trying to convert Chunky v1.5.3:org/popcraft/chunky/ChunkyBukkit.class
+2026-07-03T11:56:21.693129144Z [inf]  java.lang.IllegalArgumentException: Unsupported class file major version 69
+2026-07-03T11:56:21.693146884Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:9.7]
+2026-07-03T11:56:21.693152034Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:9.7]
+2026-07-03T11:56:21.693155853Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:9.7]
+2026-07-03T11:56:21.693160383Z [inf]  	at org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:193) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693165863Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:399) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693169733Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:21.693173503Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.693177513Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:21.693182533Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:21.693186623Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.693190343Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:56:21.693194563Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.693199413Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.693203403Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:21.693668137Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693675347Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693680817Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693684817Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693688067Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693692157Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693695617Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693699197Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693702716Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.693706376Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.693711026Z [inf]  [11:56:21 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Chunky.jar' in folder 'plugins'
+2026-07-03T11:56:21.693714386Z [inf]  org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:56:21.695234359Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.695238059Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.695239109Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.695240979Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.695244029Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.695246899Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.695248119Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.695249799Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.695252929Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.695253598Z [inf]  Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:56:21.695256238Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.695257378Z [inf]  	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+2026-07-03T11:56:21.696582493Z [inf]  [11:56:21 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T11:56:21.696583483Z [inf]  	at java.base/java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.696587952Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:21.696590202Z [inf]  	at java.base/java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.696592432Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:21.696596052Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:21.696598162Z [inf]  	... 9 more
+2026-07-03T11:56:21.696601762Z [inf]  [11:56:21 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T11:56:21.696602782Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.696607932Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:21.696611892Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:21.696616322Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.696619872Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:56:21.696623772Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:56:21.696626882Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:56:23.201065530Z [inf]  [11:56:23 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T11:56:24.368227465Z [inf]  [11:56:24 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T11:56:24.368231745Z [inf]  [11:56:24 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T11:56:25.773274022Z [inf]  [11:56:25 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T11:56:25.882234268Z [inf]  [11:56:25 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T11:56:26.973180292Z [inf]  [11:56:26 INFO]: [floodgate] Took 1,195ms to boot Floodgate
+2026-07-03T11:56:26.973190302Z [inf]  [11:56:26 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T11:56:26.973195842Z [inf]  [11:56:26 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T11:56:26.973200622Z [inf]  [11:56:26 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T11:56:27.441614463Z [inf]  [11:56:27 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T11:56:27.441619603Z [inf]  [11:56:27 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T11:56:27.451778221Z [inf]  [11:56:27 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T11:56:27.451784021Z [inf]  [11:56:27 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T11:56:27.451787691Z [inf]  [11:56:27 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T11:56:27.451790671Z [inf]  [11:56:27 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T11:56:27.451795111Z [inf]  [11:56:27 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T11:56:27.451797791Z [inf]  [11:56:27 INFO]: Preparing level "world"
+2026-07-03T11:56:34.595079230Z [inf]  [11:56:34 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T11:56:39.579574337Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/b10686d3-f29d-4e1e-b622-cd2d574716e0/vol_9yshw081luebrlv9
+2026-07-03T11:56:39.595439632Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T11:56:39.595444972Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms1G -Xmx1G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T11:56:39.950760788Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T11:56:40.011525915Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T11:56:40.011530955Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T11:56:40.260404214Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T11:56:40.491421698Z [inf]  [11:56:40 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T11:56:40.491427928Z [inf]  [11:56:40 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T11:56:40.531638933Z [inf]  [11:56:40 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T11:56:40.656261730Z [inf]  [11:56:40 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T11:56:40.951948595Z [inf]  [11:56:40 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T11:56:40.964232216Z [inf]  [11:56:40 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T11:56:41.059978632Z [inf]  [11:56:41 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T11:56:42.605613603Z [inf]  [11:56:42 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1641ms.
+2026-07-03T11:56:43.752550832Z [inf]  [11:56:43 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 2831ms.
+2026-07-03T11:56:44.960848851Z [inf]  [11:56:44 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3848ms.
+2026-07-03T11:56:45.042527657Z [inf]  [11:56:45 INFO]: [PluginInitializerManager] Initialized 8 plugins
+2026-07-03T11:56:45.042538017Z [inf]  [11:56:45 INFO]: [PluginInitializerManager] Bukkit plugins (8):
+2026-07-03T11:56:45.042543346Z [inf]   - AuthMe (6.0.0-b2734), Chunky (1.5.3), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T11:56:47.708691076Z [inf]  [11:56:47 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T11:56:47.833789208Z [inf]  [11:56:47 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T11:56:47.833796827Z [inf]  [11:56:47 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T11:56:48.333064507Z [inf]  [11:56:48 INFO]: No existing world data, creating new world
+2026-07-03T11:56:48.766423260Z [inf]  [11:56:48 INFO]: Loaded 1290 recipes
+2026-07-03T11:56:48.864944243Z [inf]  [11:56:48 INFO]: Loaded 1399 advancements
+2026-07-03T11:56:49.101152485Z [inf]  [11:56:49 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T11:56:49.101166584Z [inf]  [11:56:49 WARN]: ****************************
+2026-07-03T11:56:49.101169904Z [inf]  [11:56:49 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T11:56:49.101172914Z [inf]  [11:56:49 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T11:56:49.101176484Z [inf]  [11:56:49 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T11:56:49.101180814Z [inf]  [11:56:49 WARN]: ****************************
+2026-07-03T11:56:49.101183734Z [inf]  [11:56:49 INFO]: Loading properties
+2026-07-03T11:56:49.151526606Z [inf]  [11:56:49 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T11:56:49.486711085Z [inf]  [11:56:49 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T11:56:49.548930705Z [inf]  [11:56:49 INFO]: Using 2 threads for Netty based IO
+2026-07-03T11:56:49.548940594Z [inf]  [11:56:49 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T11:56:50.350805105Z [inf]  [11:56:50 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T11:56:50.568679227Z [inf]  [11:56:50 INFO]: Default game type: SURVIVAL
+2026-07-03T11:56:50.568683197Z [inf]  [11:56:50 INFO]: Generating keypair
+2026-07-03T11:56:50.568686817Z [inf]  [11:56:50 INFO]: Starting Minecraft server on *:25565
+2026-07-03T11:56:50.568690447Z [inf]  [11:56:50 INFO]: Using epoll channel type
+2026-07-03T11:56:50.583257202Z [inf]  [11:56:50 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T11:56:50.583261432Z [inf]  [11:56:50 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T11:56:51.452064855Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.452111135Z [inf]  [11:56:51 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'AuthMe.jar' in folder 'plugins/.paper-remapped'
+2026-07-03T11:56:51.452119625Z [inf]  org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.11
+2026-07-03T11:56:51.452126365Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.452195564Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.452204654Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.452211343Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.452215553Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.452219783Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.452224583Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.452228433Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.452232403Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.453505088Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.520103994Z [inf]  [11:56:51 ERROR]: Fatal error trying to convert Chunky v1.5.3:org/popcraft/chunky/ChunkyBukkit.class
+2026-07-03T11:56:51.520107094Z [inf]  java.lang.IllegalArgumentException: Unsupported class file major version 69
+2026-07-03T11:56:51.520109684Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:9.7]
+2026-07-03T11:56:51.520112204Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:9.7]
+2026-07-03T11:56:51.520114684Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:9.7]
+2026-07-03T11:56:51.520117024Z [inf]  	at org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:193) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.520119444Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:399) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.520121814Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:51.520124864Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.520127354Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:51.520129754Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:51.520132224Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.520134554Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:56:51.520136954Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.520139534Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.520145794Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:51.521691865Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.521695135Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.521697995Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.521700715Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.521703365Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.521706495Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.521709055Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.521711485Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.521714185Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.521716875Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.521719185Z [inf]  [11:56:51 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Chunky.jar' in folder 'plugins'
+2026-07-03T11:56:51.521721485Z [inf]  org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:56:51.522783992Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.522786792Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.522798432Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.522801332Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.522803892Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.522808762Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.522811212Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.522813492Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.522815812Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.522818412Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.522820582Z [inf]  Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:56:51.522823122Z [inf]  	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+2026-07-03T11:56:51.523846109Z [inf]  	at java.base/java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.523849779Z [inf]  	at java.base/java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.523852889Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:51.523855599Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.523858079Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:51.523860459Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:51.523863139Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.523865869Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:56:51.523868499Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.523871399Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:56:51.523873929Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:56:51.523876529Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:56:51.523879559Z [inf]  	... 9 more
+2026-07-03T11:56:51.523881929Z [inf]  [11:56:51 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T11:56:51.523884489Z [inf]  [11:56:51 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T11:56:53.241331449Z [inf]  [11:56:53 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T11:56:54.666283245Z [inf]  [11:56:54 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T11:56:54.696077116Z [inf]  [11:56:54 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T11:56:56.297036040Z [inf]  [11:56:56 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T11:56:56.297039880Z [inf]  [11:56:56 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T11:56:57.552157205Z [inf]  [11:56:57 INFO]: [floodgate] Took 1,271ms to boot Floodgate
+2026-07-03T11:56:57.552162755Z [inf]  [11:56:57 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T11:56:57.552166895Z [inf]  [11:56:57 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T11:56:57.552169585Z [inf]  [11:56:57 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T11:56:58.185050533Z [inf]  [11:56:58 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T11:56:58.185052823Z [inf]  [11:56:58 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T11:56:58.185055043Z [inf]  [11:56:58 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T11:56:58.185057613Z [inf]  [11:56:58 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T11:56:58.185060152Z [inf]  [11:56:58 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T11:56:58.185062412Z [inf]  [11:56:58 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T11:56:58.185064612Z [inf]  [11:56:58 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T11:56:58.185066952Z [inf]  [11:56:58 INFO]: Preparing level "world"
+2026-07-03T11:57:06.571380594Z [inf]  [11:57:06 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T11:57:11.240946154Z [inf]  [11:57:11 INFO]: Time elapsed: 4562 ms
+2026-07-03T11:57:11.240949804Z [inf]  [11:57:11 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T11:57:12.222603586Z [inf]  [11:57:12 INFO]: Time elapsed: 1044 ms
+2026-07-03T11:57:12.222607536Z [inf]  [11:57:12 INFO]: Preparing start region for dimension minecraft:the_end
+2026-07-03T11:57:13.569692512Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T11:57:13.579856239Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms1G -Xmx1G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T11:57:13.776303505Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/b10686d3-f29d-4e1e-b622-cd2d574716e0/vol_9yshw081luebrlv9
+2026-07-03T11:57:13.878310651Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T11:57:13.931374351Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T11:57:13.931379281Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T11:57:14.287421557Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T11:57:14.457633994Z [inf]  [11:57:14 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T11:57:14.457638134Z [inf]  [11:57:14 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T11:57:14.496560005Z [inf]  [11:57:14 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T11:57:14.627424687Z [inf]  [11:57:14 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T11:57:14.912920345Z [inf]  [11:57:14 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T11:57:14.912928705Z [inf]  [11:57:14 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T11:57:15.331040552Z [inf]  [11:57:15 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T11:57:17.029930106Z [inf]  [11:57:17 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 2114ms.
+2026-07-03T11:57:18.103219513Z [inf]  [11:57:18 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 3166ms.
+2026-07-03T11:57:19.064188325Z [inf]  [11:57:19 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3741ms.
+2026-07-03T11:57:19.283906105Z [inf]   - AuthMe (6.0.0-b2734), Chunky (1.5.3), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T11:57:19.283993275Z [inf]  [11:57:19 INFO]: [PluginInitializerManager] Initialized 8 plugins
+2026-07-03T11:57:19.283996355Z [inf]  [11:57:19 INFO]: [PluginInitializerManager] Bukkit plugins (8):
+2026-07-03T11:57:21.648121036Z [inf]  [11:57:21 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T11:57:21.733339398Z [inf]  [11:57:21 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T11:57:21.733343808Z [inf]  [11:57:21 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T11:57:22.330184841Z [inf]  [11:57:22 INFO]: No existing world data, creating new world
+2026-07-03T11:57:22.801014764Z [inf]  [11:57:22 INFO]: Loaded 1290 recipes
+2026-07-03T11:57:22.919381316Z [inf]  [11:57:22 INFO]: Loaded 1399 advancements
+2026-07-03T11:57:23.083511887Z [inf]  [11:57:23 WARN]: ****************************
+2026-07-03T11:57:23.083519947Z [inf]  [11:57:23 INFO]: Loading properties
+2026-07-03T11:57:23.083525147Z [inf]  [11:57:23 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T11:57:23.083531427Z [inf]  [11:57:23 WARN]: ****************************
+2026-07-03T11:57:23.083536407Z [inf]  [11:57:23 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T11:57:23.083540827Z [inf]  [11:57:23 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T11:57:23.083544987Z [inf]  [11:57:23 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T11:57:23.125082166Z [inf]  [11:57:23 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T11:57:23.528989865Z [inf]  [11:57:23 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T11:57:23.621455030Z [inf]  [11:57:23 INFO]: Using 2 threads for Netty based IO
+2026-07-03T11:57:23.621459320Z [inf]  [11:57:23 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T11:57:24.361594705Z [inf]  [11:57:24 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T11:57:24.505298811Z [inf]  [11:57:24 INFO]: Default game type: SURVIVAL
+2026-07-03T11:57:24.505302531Z [inf]  [11:57:24 INFO]: Generating keypair
+2026-07-03T11:57:24.523096047Z [inf]  [11:57:24 INFO]: Starting Minecraft server on *:25565
+2026-07-03T11:57:24.568456550Z [inf]  [11:57:24 INFO]: Using epoll channel type
+2026-07-03T11:57:24.581352505Z [inf]  [11:57:24 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T11:57:24.581361135Z [inf]  [11:57:24 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T11:57:25.358117498Z [inf]  org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.11
+2026-07-03T11:57:25.358120278Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358122487Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358125607Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358126297Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358128337Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358130317Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358131277Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358134717Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358134767Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358137727Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.358167807Z [inf]  [11:57:25 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'AuthMe.jar' in folder 'plugins/.paper-remapped'
+2026-07-03T11:57:25.360064315Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.411489864Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.411492384Z [inf]  [11:57:25 ERROR]: Fatal error trying to convert Chunky v1.5.3:org/popcraft/chunky/ChunkyBukkit.class
+2026-07-03T11:57:25.411496414Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:25.411498644Z [inf]  java.lang.IllegalArgumentException: Unsupported class file major version 69
+2026-07-03T11:57:25.411502344Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:9.7]
+2026-07-03T11:57:25.411505384Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:9.7]
+2026-07-03T11:57:25.411509374Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:9.7]
+2026-07-03T11:57:25.411512964Z [inf]  	at org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:193) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.411516184Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:399) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.411519274Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:25.411522394Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.411525643Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:25.411528973Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:25.411532323Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.411535113Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:57:25.411538213Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.412295185Z [inf]  org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:57:25.412298865Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.412299205Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.412302164Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.412305094Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.412305354Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.412308904Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.412308994Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.412311794Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.412312564Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.412315264Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.412317574Z [inf]  [11:57:25 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Chunky.jar' in folder 'plugins'
+2026-07-03T11:57:25.413327442Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.413330302Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.413333042Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.413336712Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.413339212Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.413341802Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.413344522Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.413347792Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.413350872Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.413353582Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.413357052Z [inf]  Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:57:25.413359822Z [inf]  	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+2026-07-03T11:57:25.415174749Z [inf]  	at java.base/java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.415178409Z [inf]  	at java.base/java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.415180999Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:25.415183539Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.415186699Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:25.415188999Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:25.415191369Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.415194639Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:57:25.415196969Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.415199379Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:57:25.415202339Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:25.415204729Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:25.415207809Z [inf]  	... 9 more
+2026-07-03T11:57:25.415210749Z [inf]  [11:57:25 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T11:57:25.415213379Z [inf]  [11:57:25 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T11:57:26.609250851Z [inf]  [11:57:26 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T11:57:27.794835434Z [inf]  [11:57:27 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T11:57:27.806142317Z [inf]  [11:57:27 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T11:57:29.092979230Z [inf]  [11:57:29 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T11:57:29.092988700Z [inf]  [11:57:29 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T11:57:30.135845684Z [inf]  [11:57:30 INFO]: [floodgate] Took 1,035ms to boot Floodgate
+2026-07-03T11:57:30.135853564Z [inf]  [11:57:30 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T11:57:30.135857794Z [inf]  [11:57:30 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T11:57:30.135862054Z [inf]  [11:57:30 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T11:57:30.792557655Z [inf]  [11:57:30 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T11:57:30.792561715Z [inf]  [11:57:30 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T11:57:30.792564645Z [inf]  [11:57:30 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T11:57:30.792567425Z [inf]  [11:57:30 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T11:57:30.792570425Z [inf]  [11:57:30 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T11:57:30.792572875Z [inf]  [11:57:30 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T11:57:30.792575405Z [inf]  [11:57:30 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T11:57:30.792578135Z [inf]  [11:57:30 INFO]: Preparing level "world"
+2026-07-03T11:57:38.100598539Z [inf]  [11:57:38 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T11:57:41.934331035Z [inf]  [11:57:41 INFO]: Time elapsed: 3834 ms
+2026-07-03T11:57:41.934340865Z [inf]  [11:57:41 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T11:57:43.568560967Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/b10686d3-f29d-4e1e-b622-cd2d574716e0/vol_9yshw081luebrlv9
+2026-07-03T11:57:43.759498859Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T11:57:43.759504639Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms1G -Xmx1G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T11:57:44.041941374Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T11:57:44.093587206Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T11:57:44.093591226Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T11:57:44.427388476Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T11:57:44.579640514Z [inf]  [11:57:44 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T11:57:44.579669544Z [inf]  [11:57:44 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T11:57:44.619771117Z [inf]  [11:57:44 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T11:57:44.741186621Z [inf]  [11:57:44 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T11:57:45.011525233Z [inf]  [11:57:45 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T11:57:45.012538910Z [inf]  [11:57:45 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T11:57:45.442930666Z [inf]  [11:57:45 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T11:57:46.728710790Z [inf]  [11:57:46 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 1716ms.
+2026-07-03T11:57:47.709646751Z [inf]  [11:57:47 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 2697ms.
+2026-07-03T11:57:48.852937068Z [inf]  [11:57:48 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3517ms.
+2026-07-03T11:57:49.027082110Z [inf]  [11:57:49 INFO]: [PluginInitializerManager] Initialized 8 plugins
+2026-07-03T11:57:49.027087660Z [inf]  [11:57:49 INFO]: [PluginInitializerManager] Bukkit plugins (8):
+2026-07-03T11:57:49.027091350Z [inf]   - AuthMe (6.0.0-b2734), Chunky (1.5.3), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T11:57:51.832313939Z [inf]  [11:57:51 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T11:57:51.932096766Z [inf]  [11:57:51 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T11:57:51.932102926Z [inf]  [11:57:51 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T11:57:52.578497136Z [inf]  [11:57:52 INFO]: No existing world data, creating new world
+2026-07-03T11:57:52.858423462Z [inf]  [11:57:52 INFO]: Loaded 1290 recipes
+2026-07-03T11:57:52.958151109Z [inf]  [11:57:52 INFO]: Loaded 1399 advancements
+2026-07-03T11:57:53.161459137Z [inf]  [11:57:53 INFO]: Loading properties
+2026-07-03T11:57:53.161482017Z [inf]  [11:57:53 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T11:57:53.161482027Z [inf]  [11:57:53 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T11:57:53.161492106Z [inf]  [11:57:53 WARN]: ****************************
+2026-07-03T11:57:53.161492666Z [inf]  [11:57:53 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T11:57:53.161502896Z [inf]  [11:57:53 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T11:57:53.161509126Z [inf]  [11:57:53 WARN]: ****************************
+2026-07-03T11:57:53.171349457Z [inf]  [11:57:53 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T11:57:53.542659111Z [inf]  [11:57:53 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T11:57:53.633258620Z [inf]  [11:57:53 INFO]: Using 2 threads for Netty based IO
+2026-07-03T11:57:53.633261220Z [inf]  [11:57:53 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T11:57:54.549880255Z [inf]  [11:57:54 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T11:57:54.631276705Z [inf]  [11:57:54 INFO]: Default game type: SURVIVAL
+2026-07-03T11:57:54.631279645Z [inf]  [11:57:54 INFO]: Generating keypair
+2026-07-03T11:57:54.636201904Z [inf]  [11:57:54 INFO]: Starting Minecraft server on *:25565
+2026-07-03T11:57:54.683785616Z [inf]  [11:57:54 INFO]: Using epoll channel type
+2026-07-03T11:57:54.738517901Z [inf]  [11:57:54 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T11:57:54.738522050Z [inf]  [11:57:54 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T11:57:55.610876213Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.610883913Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.610894133Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.610899053Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.610903483Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.610914993Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.610929083Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.610935593Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.610940543Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.610948792Z [inf]  [11:57:55 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'AuthMe.jar' in folder 'plugins/.paper-remapped'
+2026-07-03T11:57:55.610952932Z [inf]  org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.11
+2026-07-03T11:57:55.610958002Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.611655514Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:9.7]
+2026-07-03T11:57:55.611658104Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:57:55.611663924Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:9.7]
+2026-07-03T11:57:55.611667474Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:55.611669074Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.611673714Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:55.611678434Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:55.611678544Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.611681714Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:9.7]
+2026-07-03T11:57:55.611683344Z [inf]  [11:57:55 ERROR]: Fatal error trying to convert Chunky v1.5.3:org/popcraft/chunky/ChunkyBukkit.class
+2026-07-03T11:57:55.611685654Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.611692044Z [inf]  java.lang.IllegalArgumentException: Unsupported class file major version 69
+2026-07-03T11:57:55.611696494Z [inf]  	at org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:193) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.611705134Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:399) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.611720723Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.611724953Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.612385835Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:55.612389345Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612392565Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612395505Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612398565Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612401885Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612404945Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612408095Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612412765Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612415764Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612418774Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.612422274Z [inf]  [11:57:55 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Chunky.jar' in folder 'plugins'
+2026-07-03T11:57:55.612425644Z [inf]  org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:57:55.612901949Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612904279Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612906659Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612909629Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612912179Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612914769Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612917039Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612919659Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612922279Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.612924559Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.612926739Z [inf]  Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:57:55.612928959Z [inf]  	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+2026-07-03T11:57:55.613384633Z [inf]  	at java.base/java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.613387953Z [inf]  	at java.base/java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.613390653Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:55.613394083Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.613397473Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:55.613401053Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:55.613404523Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.613407913Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:57:55.613411483Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.613415013Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:57:55.613418123Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:57:55.613422443Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:57:55.613425932Z [inf]  	... 9 more
+2026-07-03T11:57:55.613428992Z [inf]  [11:57:55 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T11:57:55.613432052Z [inf]  [11:57:55 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T11:57:56.822986435Z [inf]  [11:57:56 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T11:57:58.087364982Z [inf]  [11:57:58 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T11:57:58.091905877Z [inf]  [11:57:58 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T11:57:59.590004232Z [inf]  [11:57:59 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T11:57:59.590007332Z [inf]  [11:57:59 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T11:58:00.597358464Z [inf]  [11:58:00 INFO]: [floodgate] Took 1,073ms to boot Floodgate
+2026-07-03T11:58:00.597374964Z [inf]  [11:58:00 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T11:58:00.597383014Z [inf]  [11:58:00 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T11:58:00.597389893Z [inf]  [11:58:00 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T11:58:01.031382427Z [inf]  [11:58:01 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T11:58:01.031386457Z [inf]  [11:58:01 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T11:58:01.031390447Z [inf]  [11:58:01 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T11:58:01.031394467Z [inf]  [11:58:01 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T11:58:01.031398387Z [inf]  [11:58:01 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T11:58:01.031402687Z [inf]  [11:58:01 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T11:58:01.031406667Z [inf]  [11:58:01 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T11:58:01.031409687Z [inf]  [11:58:01 INFO]: Preparing level "world"
+2026-07-03T11:58:09.497994614Z [inf]  [11:58:09 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T11:58:13.679551411Z [inf]  [11:58:13 INFO]: Time elapsed: 4182 ms
+2026-07-03T11:58:13.679556161Z [inf]  [11:58:13 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T11:58:15.324950311Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T11:58:15.329598854Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms1G -Xmx1G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T11:58:15.525684917Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/b10686d3-f29d-4e1e-b622-cd2d574716e0/vol_9yshw081luebrlv9
+2026-07-03T11:58:15.702044737Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T11:58:15.702055207Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T11:58:15.702061166Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T11:58:15.936609895Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T11:58:16.193653891Z [inf]  [11:58:16 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T11:58:16.193659430Z [inf]  [11:58:16 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T11:58:16.236063496Z [inf]  [11:58:16 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T11:58:16.378266647Z [inf]  [11:58:16 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T11:58:16.767054861Z [inf]  [11:58:16 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T11:58:16.767057990Z [inf]  [11:58:16 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T11:58:17.116611902Z [inf]  [11:58:17 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T11:58:18.925801221Z [inf]  [11:58:18 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 2285ms.
+2026-07-03T11:58:19.850980485Z [inf]  [11:58:19 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 3215ms.
+2026-07-03T11:58:20.889991525Z [inf]  [11:58:20 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3771ms.
+2026-07-03T11:58:21.042762889Z [inf]  [11:58:21 INFO]: [PluginInitializerManager] Initialized 8 plugins
+2026-07-03T11:58:21.042766719Z [inf]  [11:58:21 INFO]: [PluginInitializerManager] Bukkit plugins (8):
+2026-07-03T11:58:21.042770809Z [inf]   - AuthMe (6.0.0-b2734), Chunky (1.5.3), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T11:58:23.785465652Z [inf]  [11:58:23 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T11:58:23.785469132Z [inf]  [11:58:23 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T11:58:23.785472512Z [inf]  [11:58:23 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T11:58:24.277007608Z [inf]  [11:58:24 INFO]: No existing world data, creating new world
+2026-07-03T11:58:24.786446746Z [inf]  [11:58:24 INFO]: Loaded 1290 recipes
+2026-07-03T11:58:24.870117519Z [inf]  [11:58:24 INFO]: Loaded 1399 advancements
+2026-07-03T11:58:25.034861347Z [inf]  [11:58:25 WARN]: ****************************
+2026-07-03T11:58:25.034869757Z [inf]  [11:58:25 INFO]: Loading properties
+2026-07-03T11:58:25.034886116Z [inf]  [11:58:25 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T11:58:25.034896176Z [inf]  [11:58:25 WARN]: ****************************
+2026-07-03T11:58:25.034900306Z [inf]  [11:58:25 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T11:58:25.034903966Z [inf]  [11:58:25 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T11:58:25.034907716Z [inf]  [11:58:25 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T11:58:25.073606516Z [inf]  [11:58:25 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T11:58:25.459785422Z [inf]  [11:58:25 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T11:58:25.526340473Z [inf]  [11:58:25 INFO]: Using 2 threads for Netty based IO
+2026-07-03T11:58:25.527001106Z [inf]  [11:58:25 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T11:58:26.338658930Z [inf]  [11:58:26 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T11:58:26.552516762Z [inf]  [11:58:26 INFO]: Default game type: SURVIVAL
+2026-07-03T11:58:26.552520242Z [inf]  [11:58:26 INFO]: Generating keypair
+2026-07-03T11:58:26.573775583Z [inf]  [11:58:26 INFO]: Starting Minecraft server on *:25565
+2026-07-03T11:58:26.625020919Z [inf]  [11:58:26 INFO]: Using epoll channel type
+2026-07-03T11:58:26.640740168Z [inf]  [11:58:26 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T11:58:26.640748278Z [inf]  [11:58:26 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T11:58:27.450285140Z [inf]  [11:58:27 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'AuthMe.jar' in folder 'plugins/.paper-remapped'
+2026-07-03T11:58:27.450289660Z [inf]  org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.11
+2026-07-03T11:58:27.450292820Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450295480Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450297870Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450300340Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450302780Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450305560Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450308129Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450310479Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450312989Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450315189Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.450721854Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.502156879Z [inf]  [11:58:27 ERROR]: Fatal error trying to convert Chunky v1.5.3:org/popcraft/chunky/ChunkyBukkit.class
+2026-07-03T11:58:27.502169129Z [inf]  java.lang.IllegalArgumentException: Unsupported class file major version 69
+2026-07-03T11:58:27.502176269Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:9.7]
+2026-07-03T11:58:27.502181299Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:9.7]
+2026-07-03T11:58:27.502188119Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:9.7]
+2026-07-03T11:58:27.502193709Z [inf]  	at org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:193) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502198429Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:399) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502206429Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:27.502211009Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.502216638Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:27.502221548Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:27.502226228Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.502231118Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:58:27.502236038Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.502240978Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.502250738Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:27.502424146Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502429516Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502435086Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502439946Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502444215Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502448735Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502452665Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502456755Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502460915Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.502465285Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.503401914Z [inf]  [11:58:27 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Chunky.jar' in folder 'plugins'
+2026-07-03T11:58:27.503407674Z [inf]  org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:58:27.504105655Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.504109625Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.504115575Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.504119055Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.504122105Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.504124905Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.504127665Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.504130225Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.504132885Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.504135855Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.504138455Z [inf]  Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:58:27.504141445Z [inf]  	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+2026-07-03T11:58:27.505813705Z [inf]  	at java.base/java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.505817985Z [inf]  	at java.base/java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.505822015Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:27.505826215Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.505830585Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:27.505834435Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:27.505838955Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.505842185Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:58:27.505845335Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.505848695Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:58:27.505852865Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:27.505857704Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:27.505861704Z [inf]  	... 9 more
+2026-07-03T11:58:27.505864794Z [inf]  [11:58:27 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T11:58:27.505868304Z [inf]  [11:58:27 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T11:58:28.842389731Z [inf]  [11:58:28 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T11:58:30.019448735Z [inf]  [11:58:29 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T11:58:30.019453215Z [inf]  [11:58:30 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T11:58:31.248896314Z [inf]  [11:58:31 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T11:58:31.252968794Z [inf]  [11:58:31 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T11:58:32.415402087Z [inf]  [11:58:32 INFO]: [floodgate] Took 1,151ms to boot Floodgate
+2026-07-03T11:58:32.415409937Z [inf]  [11:58:32 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T11:58:32.415414327Z [inf]  [11:58:32 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T11:58:32.415419427Z [inf]  [11:58:32 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T11:58:32.979522461Z [inf]  [11:58:32 INFO]: Preparing level "world"
+2026-07-03T11:58:32.979562741Z [inf]  [11:58:32 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T11:58:32.979567471Z [inf]  [11:58:32 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T11:58:32.979571951Z [inf]  [11:58:32 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T11:58:32.979576401Z [inf]  [11:58:32 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T11:58:32.979580701Z [inf]  [11:58:32 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T11:58:32.979584901Z [inf]  [11:58:32 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T11:58:32.979589111Z [inf]  [11:58:32 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T11:58:40.613792828Z [inf]  [11:58:40 INFO]: Preparing start region for dimension minecraft:overworld
+2026-07-03T11:58:44.359676980Z [inf]  [11:58:44 INFO]: Time elapsed: 3746 ms
+2026-07-03T11:58:44.359679460Z [inf]  [11:58:44 INFO]: Preparing start region for dimension minecraft:the_nether
+2026-07-03T11:58:46.328413518Z [inf]  [START] Launching Paper 1.21.1...
+2026-07-03T11:58:46.328418418Z [err]  Picked up JAVA_TOOL_OPTIONS: -Xms1G -Xmx1G -Dpaper.playerconnection.keepalive=true -Dnet.kyori.adventure.text.renderer.Playground=true
+2026-07-03T11:58:46.667941432Z [inf]  Starting org.bukkit.craftbukkit.Main
+2026-07-03T11:58:46.727819715Z [err]  *** Warning, you've not updated in a while! ***
+2026-07-03T11:58:46.727823865Z [err]  *** Please download a new build as per instructions from https://papermc.io/downloads/paper ***
+2026-07-03T11:58:46.973328342Z [inf]  WARN StatusConsoleListener Advanced terminal features are not available in this environment
+2026-07-03T11:58:47.068079865Z [inf]  Mounting volume on: /var/lib/containers/railwayapp/bind-mounts/b10686d3-f29d-4e1e-b622-cd2d574716e0/vol_9yshw081luebrlv9
+2026-07-03T11:58:47.233256044Z [inf]  [11:58:47 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-LTS; Eclipse Adoptium Temurin-21.0.11+10) on Linux 6.18.15+deb13-cloud-amd64 (amd64)
+2026-07-03T11:58:47.233261154Z [inf]  [11:58:47 INFO]: [bootstrap] Loading Paper 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) for Minecraft 1.21.1
+2026-07-03T11:58:47.261819297Z [inf]  [11:58:47 WARN]: [oshi.software.os.linux.LinuxOperatingSystem] Did not find udev library in operating system. Some features may not work.
+2026-07-03T11:58:47.432720930Z [inf]  [11:58:47 INFO]: [PluginInitializerManager] Initializing plugins...
+2026-07-03T11:58:47.985129168Z [inf]  [11:58:47 INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+2026-07-03T11:58:47.985133868Z [inf]  [11:58:47 INFO]: [PluginRemapper] Remapping plugin 'plugins/AuthMe.jar'...
+2026-07-03T11:58:48.274976676Z [inf]  [11:58:48 INFO]: [PluginRemapper] Remapping plugin 'plugins/Floodgate-Spigot.jar'...
+2026-07-03T11:58:50.240947179Z [inf]  [11:58:50 INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuthMe.jar' in 2365ms.
+2026-07-03T11:58:50.984173119Z [inf]  [11:58:50 INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 3080ms.
+2026-07-03T11:58:51.953826468Z [inf]  [11:58:51 INFO]: [PluginRemapper] Done remapping plugin 'plugins/Floodgate-Spigot.jar' in 3646ms.
+2026-07-03T11:58:52.087178457Z [inf]  [11:58:52 INFO]: [PluginInitializerManager] Initialized 8 plugins
+2026-07-03T11:58:52.087184287Z [inf]  [11:58:52 INFO]: [PluginInitializerManager] Bukkit plugins (8):
+2026-07-03T11:58:52.087187437Z [inf]   - AuthMe (6.0.0-b2734), Chunky (1.5.3), Essentials (2.22.0), Geyser-Spigot (2.10.1-SNAPSHOT), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), playit-gg (0.2.0)
+2026-07-03T11:58:55.087768832Z [inf]  [11:58:55 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+2026-07-03T11:58:55.208817071Z [inf]  [11:58:55 INFO]: Found new data pack file/bukkit, loading it automatically
+2026-07-03T11:58:55.208822981Z [inf]  [11:58:55 INFO]: Found new data pack paper, loading it automatically
+2026-07-03T11:58:55.764426531Z [inf]  [11:58:55 INFO]: No existing world data, creating new world
+2026-07-03T11:58:56.274621852Z [inf]  [11:58:56 INFO]: Loaded 1290 recipes
+2026-07-03T11:58:56.416128033Z [inf]  [11:58:56 INFO]: Loaded 1399 advancements
+2026-07-03T11:58:56.554402373Z [inf]  [11:58:56 INFO]: Starting minecraft server version 1.21.1
+2026-07-03T11:58:56.554408393Z [inf]  [11:58:56 WARN]: ****************************
+2026-07-03T11:58:56.554412123Z [inf]  [11:58:56 WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+2026-07-03T11:58:56.554416713Z [inf]  [11:58:56 WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+2026-07-03T11:58:56.554419863Z [inf]  [11:58:56 WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+2026-07-03T11:58:56.554423233Z [inf]  [11:58:56 WARN]: ****************************
+2026-07-03T11:58:56.554426373Z [inf]  [11:58:56 INFO]: Loading properties
+2026-07-03T11:58:56.626602656Z [inf]  [11:58:56 INFO]: This server is running Paper version 1.21.1-2-master@306d0df (2024-08-10T10:48:39Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+2026-07-03T11:58:57.071749588Z [inf]  [11:58:57 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+2026-07-03T11:58:57.156230581Z [inf]  [11:58:57 INFO]: Using 2 threads for Netty based IO
+2026-07-03T11:58:57.156236861Z [inf]  [11:58:57 INFO]: Server Ping Player Sample Count: 12
+2026-07-03T11:58:58.089505603Z [inf]  [11:58:58 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+2026-07-03T11:58:58.475135969Z [inf]  [11:58:58 INFO]: Default game type: SURVIVAL
+2026-07-03T11:58:58.475142389Z [inf]  [11:58:58 INFO]: Generating keypair
+2026-07-03T11:58:58.475146269Z [inf]  [11:58:58 INFO]: Starting Minecraft server on *:25565
+2026-07-03T11:58:58.548960051Z [inf]  [11:58:58 INFO]: Using epoll channel type
+2026-07-03T11:58:58.570495300Z [inf]  [11:58:58 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+2026-07-03T11:58:58.570498130Z [inf]  [11:58:58 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+2026-07-03T11:58:59.439089228Z [inf]  [11:58:59 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'AuthMe.jar' in folder 'plugins/.paper-remapped'
+2026-07-03T11:58:59.439095478Z [inf]  org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.11
+2026-07-03T11:58:59.439099527Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439103337Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439107387Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439111197Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439114857Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439118567Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439122457Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439126057Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439130747Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439134467Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.439393614Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.477625740Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:59.477634700Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.477638700Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:58:59.477642480Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.477647329Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.477651539Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:59.477929856Z [inf]  [11:58:59 ERROR]: Fatal error trying to convert Chunky v1.5.3:org/popcraft/chunky/ChunkyBukkit.class
+2026-07-03T11:58:59.477937526Z [inf]  java.lang.IllegalArgumentException: Unsupported class file major version 69
+2026-07-03T11:58:59.477940826Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:9.7]
+2026-07-03T11:58:59.477944076Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:9.7]
+2026-07-03T11:58:59.477948066Z [inf]  	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:9.7]
+2026-07-03T11:58:59.477951446Z [inf]  	at org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:193) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.477954515Z [inf]  	at org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:399) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.477957585Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:59.477960625Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.477963925Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:59.478072304Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.478076234Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.478079314Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.478082614Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.478086024Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.478090414Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.478093954Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.478096844Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.478100324Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.478103394Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.479570496Z [inf]  [11:58:59 ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Chunky.jar' in folder 'plugins'
+2026-07-03T11:58:59.479575725Z [inf]  org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:58:59.479579315Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.479582745Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.479585965Z [inf]  	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.479589225Z [inf]  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.479594535Z [inf]  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.479597775Z [inf]  	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.479601155Z [inf]  	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.479604515Z [inf]  	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.479607685Z [inf]  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.480393516Z [inf]  	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.480400366Z [inf]  Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 69.0), this version of the Java Runtime only recognizes class file versions up to 65.0
+2026-07-03T11:58:59.480405946Z [inf]  	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+2026-07-03T11:58:59.480410546Z [inf]  	at java.base/java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.480415146Z [inf]  	at java.base/java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.480419496Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:59.480424486Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.480429095Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:59.480433545Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:59.480439825Z [inf]  	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.480445015Z [inf]  	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+2026-07-03T11:58:59.480448615Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.480452415Z [inf]  	at java.base/java.lang.Class.forName(Unknown Source) ~[?:?]
+2026-07-03T11:58:59.480456165Z [inf]  	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+2026-07-03T11:58:59.480459385Z [inf]  	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.1.jar:1.21.1-2-306d0df]
+2026-07-03T11:58:59.481074097Z [inf]  	... 9 more
+2026-07-03T11:58:59.481077847Z [inf]  [11:58:59 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+2026-07-03T11:58:59.481080877Z [inf]  [11:58:59 INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+2026-07-03T11:59:00.887878336Z [inf]  [11:59:00 INFO]: [ViaVersion] Loading block connection mappings ...
+2026-07-03T11:59:02.070156764Z [inf]  [11:59:02 INFO]: [ViaBackwards] Loading translations...
+2026-07-03T11:59:02.075028884Z [inf]  [11:59:02 INFO]: [ViaBackwards] Registering protocols...
+2026-07-03T11:59:03.354845028Z [inf]  [11:59:03 INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+2026-07-03T11:59:03.354849758Z [inf]  [11:59:03 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+2026-07-03T11:59:04.406623621Z [inf]  [11:59:04 INFO]: [floodgate] Took 1,103ms to boot Floodgate
+2026-07-03T11:59:04.406627301Z [inf]  [11:59:04 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+2026-07-03T11:59:04.406630571Z [inf]  [11:59:04 INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+2026-07-03T11:59:04.406633211Z [inf]  [11:59:04 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.1-SNAPSHOT
+2026-07-03T11:59:05.113081159Z [inf]  [11:59:05 INFO]: [Geyser-Spigot] Loading extensions...
+2026-07-03T11:59:05.117793602Z [inf]  [11:59:05 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+2026-07-03T11:59:05.128525151Z [inf]  [11:59:05 INFO]: Server permissions file permissions.yml is empty, ignoring it
+2026-07-03T11:59:05.128529491Z [inf]  [11:59:05 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2026-07-03T11:59:05.128532831Z [inf]  [11:59:05 WARN]: The server will make no attempt to authenticate usernames. Beware.
+2026-07-03T11:59:05.128536301Z [inf]  [11:59:05 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2026-07-03T11:59:05.128539451Z [inf]  [11:59:05 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+2026-07-03T11:59:05.128543660Z [inf]  [11:59:05 INFO]: Preparing level "world"
+2026-07-03T11:59:14.208914630Z [inf]  [11:59:14 INFO]: Preparing start region for dimension minecraft:overworld
