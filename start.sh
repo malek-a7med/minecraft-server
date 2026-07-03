@@ -110,7 +110,8 @@ echo "eula=true" > eula.txt
 # =====================================================
 JAVA_FLAGS=(
   # ---- Heap ----
-  -Xms512M
+  # Xms256M: بيخلي الـ JVM يبدأ خفيف ويكبر حسب الحاجة بدل ما يحجز 512MB فوراً
+  -Xms256M
   -Xmx768M
 
   # ---- G1GC — أفضل GC لتقليل تأخيرات ماين كرافت ----
@@ -119,7 +120,8 @@ JAVA_FLAGS=(
   -XX:MaxGCPauseMillis=200
   -XX:+UnlockExperimentalVMOptions
   -XX:+DisableExplicitGC
-  -XX:+AlwaysPreTouch
+  # AlwaysPreTouch اتشال: كان بيحجز كل الـ heap pages فوراً عند الـ startup
+  # وده كان بيسبب spike في الـ RAM مع Geyser initialization
   -XX:G1NewSizePercent=30
   -XX:G1MaxNewSizePercent=40
   -XX:G1HeapRegionSize=8M

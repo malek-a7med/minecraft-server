@@ -44,7 +44,7 @@ settings:
   moved-wrongly-threshold: 0.0625
   netty-threads: 2               # تقليل الـ Threads لتوفير RAM
   player-shuffle: 0
-  restart-on-crash: true
+  restart-on-crash: false
   restart-script: ./start.sh
   sample-count: 12
   save-user-cache-on-stop-only: true

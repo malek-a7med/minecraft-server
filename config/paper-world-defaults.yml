@@ -170,8 +170,8 @@ scoreboards:
 
 spawn:
   allow-using-signs-inside-spawn-protection: false
-  keep-spawn-loaded: true
-  keep-spawn-loaded-range: 2        # تحميل 2 Chunks حول نقطة البداية فقط
+  keep-spawn-loaded: false          # مش بيحمّل spawn chunks عند الـ startup = توفير RAM
+  keep-spawn-loaded-range: 2
 
 tick-rates:
   behavior:

@@ -1,0 +1,8 @@
+# إعداد ريلواي للسيرفر
+[build]
+builder = "DOCKERFILE"
+
+[deploy]
+# ريلواي يعيد تشغيل الكونتينر لو وقف — مش محتاجين restart-on-crash جوه spigot
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 5
